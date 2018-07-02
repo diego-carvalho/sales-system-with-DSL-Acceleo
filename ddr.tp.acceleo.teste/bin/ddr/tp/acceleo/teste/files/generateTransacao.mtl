@@ -1,0 +1,79 @@
+[comment encoding = UTF-8 /]
+[module generateTransacao('http://comercio')]
+
+[import ddr::tp::acceleo::teste::files::generateCliente /]
+[import ddr::tp::acceleo::teste::files::generateItemVenda /]
+[import ddr::tp::acceleo::teste::files::generateFormaPagamento /]
+
+[template public generateTransacao(aTransacao : Transacao)]
+
+[file ('model/'+nome.toUpperFirst()+'.java', false, 'UTF-8')]
+package model;
+
+public class [nome.toUpperFirst()/] {
+	[for (at : comercio::Atributo | atributos)]
+	private [at.tipo/] [at.nome/];
+	[/for]
+	private [cliente.nome.toUpperFirst()/] cliente;
+	private [item.nome.toUpperFirst()/] itemVenda;
+	[for (fp : FormaPagamento | formasPagamento)]
+	private FormaPagamento[fp.nome.toUpperFirst()/] [fp.nome/];
+	[/for]
+	
+	public [nome.toUpperFirst()/]([cliente.nome.toUpperFirst()/] cliente, [item.nome.toUpperFirst()/] itemVenda[for (fp : FormaPagamento | formasPagamento)], FormaPagamento[fp.nome.toUpperFirst()/] [fp.nome/][/for][for (at : Atributo | atributos)], [at.tipo/] [at.nome/][/for]) {
+		[for (at : Atributo | atributos)]
+		this.[at.nome/] = [at.nome/];
+		[/for]
+		this.cliente = cliente;
+		this.itemVenda = itemVenda;
+		[for (fp : FormaPagamento | formasPagamento)]
+		this.[fp.nome/] = [fp.nome/];
+		[/for]
+	}
+
+	[for (at : Atributo | atributos) separator ('\n')]
+	public [at.tipo/] get[at.nome.toUpperFirst()/]() {
+		return [at.nome/];
+	}
+	[/for]
+	public [cliente.nome.toUpperFirst()/] getCliente() {
+		return cliente;
+	}
+
+	public [item.nome.toUpperFirst()/] getItemVenda() {
+		return itemVenda;
+	}
+
+	[for (fp : FormaPagamento | formasPagamento) separator ('\n')]
+	public FormaPagamento[fp.nome.toUpperFirst()/] get[fp.nome.toUpperFirst()/]() {
+		return [fp.nome/];
+	}
+	[/for]
+	[for (at : Atributo | atributos) separator ('\n')]
+	public void set[at.nome.toUpperFirst()/]([at.tipo/] [at.nome/]) {
+		this.[at.nome/] = [at.nome/];
+	}
+	[/for]
+
+	public void setCliente([cliente.nome.toUpperFirst()/] cliente) {
+		this.cliente = cliente;
+	}
+
+	public void setItemVenda([item.nome.toUpperFirst()/] itemVenda) {
+		this.itemVenda = itemVenda;
+	}
+
+	[for (fp : FormaPagamento | formasPagamento) separator ('\n')]
+	public void set[fp.nome.toUpperFirst()/](FormaPagamento[fp.nome.toUpperFirst()/] [fp.nome/]) {
+		this.[fp.nome/] = [fp.nome/];
+	}
+	[/for]
+}
+[/file]
+
+[generateCliente(cliente)/]
+[generateItemVenda(item)/]
+[for (fp : FormaPagamento | formasPagamento)]
+[generateFormaPagamento(fp)/]
+[/for]
+[/template]

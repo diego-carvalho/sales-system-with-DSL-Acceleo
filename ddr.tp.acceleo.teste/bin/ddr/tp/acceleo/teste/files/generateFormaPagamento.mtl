@@ -1,0 +1,19 @@
+[comment encoding = UTF-8 /]
+[module generateFormaPagamento('http://comercio')]
+
+
+[template public generateFormaPagamento(aFormaPagamento : FormaPagamento)]
+
+[file ('model/FormaPagamento'+nome.toUpperFirst()+'.java', false, 'UTF-8')]
+package model;
+
+public class FormaPagamento[nome.toUpperFirst()/] {
+
+	public void efetuarPagamento() {
+		// [protected ('efetuarPagamento')]
+		// TODO deve ser implementado
+		// [/protected]
+	}
+}
+[/file]
+[/template]

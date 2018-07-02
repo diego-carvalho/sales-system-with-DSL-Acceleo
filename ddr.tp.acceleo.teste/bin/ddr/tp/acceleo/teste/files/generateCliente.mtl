@@ -1,0 +1,34 @@
+[comment encoding = UTF-8 /]
+[module generateCliente('http://comercio')]
+
+
+[template public generateCliente(aCliente : Cliente)]
+
+[file ('model/'+nome.toUpperFirst()+'.java', false, 'UTF-8')]
+package model;
+
+public class [nome.toUpperFirst()/] {
+	[for (at : Atributo | atributos)]
+	private [at.tipo/] [at.nome/];
+	[/for]
+	
+	public [nome.toUpperFirst()/]([for (at : Atributo | atributos) separator (', ')][at.tipo/] [at.nome/][/for]) {
+		[for (at : Atributo | atributos)]
+		this.[at.nome/] = [at.nome/];
+		[/for]	
+	}
+	
+	[for (at : Atributo | atributos) separator ('\n')]
+	public [at.tipo/] get[at.nome.toUpperFirst()/]() {
+		return [at.nome/];
+	}
+	[/for]
+
+	[for (at : Atributo | atributos) separator ('\n')]
+	public void set[at.nome.toUpperFirst()/]([at.tipo/] [at.nome/]) {
+		this.[at.nome/] = [at.nome/];
+	}
+	[/for]
+}
+[/file]
+[/template]

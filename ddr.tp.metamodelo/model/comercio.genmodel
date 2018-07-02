@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/ddr.tp.metamodelo/src" modelPluginID="ddr.tp.metamodelo"
+    modelName="Comercio" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>comercio.ecore</foreignModel>
+  <genPackages prefix="Comercio" disposableProviderFactory="true" ecorePackage="comercio.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="comercio.ecore#//Tipo">
+      <genEnumLiterals ecoreEnumLiteral="comercio.ecore#//Tipo/int"/>
+      <genEnumLiterals ecoreEnumLiteral="comercio.ecore#//Tipo/float"/>
+      <genEnumLiterals ecoreEnumLiteral="comercio.ecore#//Tipo/String"/>
+      <genEnumLiterals ecoreEnumLiteral="comercio.ecore#//Tipo/Date"/>
+    </genEnums>
+    <genClasses ecoreClass="comercio.ecore#//Aplicativo">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference comercio.ecore#//Aplicativo/transacao"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comercio.ecore#//Aplicativo/nome"/>
+    </genClasses>
+    <genClasses ecoreClass="comercio.ecore#//Aluguel"/>
+    <genClasses ecoreClass="comercio.ecore#//Atributo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comercio.ecore#//Atributo/nome"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comercio.ecore#//Atributo/tipo"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="comercio.ecore#//Caracteristica">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comercio.ecore#//Caracteristica/nome"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference comercio.ecore#//Caracteristica/atributos"/>
+    </genClasses>
+    <genClasses ecoreClass="comercio.ecore#//Cliente"/>
+    <genClasses ecoreClass="comercio.ecore#//FormaPagamento">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comercio.ecore#//FormaPagamento/nome"/>
+    </genClasses>
+    <genClasses ecoreClass="comercio.ecore#//Item">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference comercio.ecore#//Item/produto"/>
+    </genClasses>
+    <genClasses ecoreClass="comercio.ecore#//Produto"/>
+    <genClasses image="false" ecoreClass="comercio.ecore#//Transacao">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference comercio.ecore#//Transacao/cliente"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference comercio.ecore#//Transacao/item"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference comercio.ecore#//Transacao/formasPagamento"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comercio.ecore#//Transacao/valorado"/>
+    </genClasses>
+    <genClasses ecoreClass="comercio.ecore#//Venda"/>
+  </genPackages>
+</genmodel:GenModel>

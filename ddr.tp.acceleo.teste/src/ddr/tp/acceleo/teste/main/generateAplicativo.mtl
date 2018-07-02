@@ -1,0 +1,29 @@
+[comment encoding = UTF-8 /]
+[module generateAplicativo('http://comercio')]
+
+[import ddr::tp::acceleo::teste::files::generateTransacao /]
+
+[template public generateElement(anAplicativo : Aplicativo)]
+[comment @main/]
+[file ('model/'+nome.toUpperFirst()+'.java', false, 'UTF-8')]
+package model;
+
+public class [nome.toUpperFirst()/] {
+	private [transacao.nome.toUpperFirst()/] transacao;
+	
+	public [nome.toUpperFirst()/]([transacao.nome.toUpperFirst()/] transacao) {
+		this.transacao = transacao;
+	}
+
+	public [transacao.nome.toUpperFirst()/] getTransacao() {
+		return this.transacao;
+	}
+	
+	public void setTransacao([transacao.nome.toUpperFirst()/] transacao) {
+		this.transacao = transacao;
+	}
+}
+[/file]
+
+[generateTransacao(transacao)/]
+[/template]

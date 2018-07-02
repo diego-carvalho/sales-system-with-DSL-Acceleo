@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comercio:Aplicativo xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comercio="http://comercio" nome="LojaPontoCerto">
+  <transacao xsi:type="comercio:Aluguel" nome="AluguelVeiculo" valorado="true">
+    <cliente nome="Cliente">
+      <atributos nome="nome" tipo="String"/>
+      <atributos nome="cpf" tipo="String"/>
+      <atributos nome="endereco" tipo="String"/>
+      <atributos nome="idade"/>
+    </cliente>
+    <item nome="ItemVendaVeiculo">
+      <atributos nome="quantidade"/>
+      <produto nome="Veiculo">
+        <atributos nome="marca" tipo="String"/>
+        <atributos nome="modelo" tipo="String"/>
+        <atributos nome="valor" tipo="float"/>
+        <atributos nome="ano"/>
+      </produto>
+    </item>
+    <formasPagamento nome="dinheiro"/>
+    <formasPagamento nome="cartao"/>
+  </transacao>
+</comercio:Aplicativo>

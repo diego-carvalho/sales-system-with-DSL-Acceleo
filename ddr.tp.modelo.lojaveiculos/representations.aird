@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comercio="comercio" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_N7jNkHWiEeiRbvUUwETi_A" selectedViews="_oBrkwHWpEeiTJbvH9w7IEA" version="11.1.0.201608251200">
+    <semanticResources>modelo/LojaVeiculos.comercio</semanticResources>
+    <semanticResources>modelo/lojaveiculos.comercio</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_oBrkwHWpEeiTJbvH9w7IEA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_2Wti0HjZEeiYTOAnsvCMgw" name="Loja Veiculos" representation="_2Wti0XjZEeiYTOAnsvCMgw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']"/>
+        <target xmi:type="comercio:Aplicativo" href="modelo/LojaVeiculos.comercio#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_afgJwHk5EeiPPJNXirOj7g" name="new Comercios diagram" representation="_afimAHk5EeiPPJNXirOj7g">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']"/>
+        <target xmi:type="comercio:Aplicativo" href="modelo/LojaVeiculos.comercio#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_bvOvsHieEeicn7bzFH_NVw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/ddr.tp.design2/description/tp.odesign#//@ownedViewpoints[name='comercios2']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_Dn9XcHjPEeiYTOAnsvCMgw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_FJQLEHjPEeiYTOAnsvCMgw" name="new Comercios diagram" representation="_FJQyIHjPEeiYTOAnsvCMgw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']"/>
+        <target xmi:type="comercio:Aplicativo" href="modelos_comercio/LojaVeiculos.comercio#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_FJQyIHjPEeiYTOAnsvCMgw" name="new Comercios diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_FJQyIXjPEeiYTOAnsvCMgw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_FJQyInjPEeiYTOAnsvCMgw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_FJQyU3jPEeiYTOAnsvCMgw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_FJQyVHjPEeiYTOAnsvCMgw" type="Sirius" element="_FJQyIHjPEeiYTOAnsvCMgw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_FJQyVnjPEeiYTOAnsvCMgw" type="2001" element="_FJQyI3jPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJRZMHjPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJRZMXjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJbxQnjPEeiYTOAnsvCMgw" type="3005" element="_FJQyJHjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJbxQ3jPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJbxRHjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJQyV3jPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJQyWHjPEeiYTOAnsvCMgw" x="255" y="250" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJYG4HjPEeiYTOAnsvCMgw" type="2001" element="_FJQyJXjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJYG43jPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJYG5HjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJbxRXjPEeiYTOAnsvCMgw" type="3005" element="_FJQyJnjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJbxRnjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJbxR3jPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJYG4XjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJYG4njPEeiYTOAnsvCMgw" x="356" y="250" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJYt8HjPEeiYTOAnsvCMgw" type="2001" element="_FJQyJ3jPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJYt83jPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJYt9HjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJbxSHjPEeiYTOAnsvCMgw" type="3005" element="_FJQyKHjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJbxSXjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJbxSnjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJYt8XjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJYt8njPEeiYTOAnsvCMgw" x="555" y="148" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJYt9XjPEeiYTOAnsvCMgw" type="2001" element="_FJQyKXjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJYt-HjPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJYt-XjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJcYUHjPEeiYTOAnsvCMgw" type="3005" element="_FJQyKnjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJcYUXjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJcYUnjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJYt9njPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJYt93jPEeiYTOAnsvCMgw" x="453" y="148" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJZVAHjPEeiYTOAnsvCMgw" type="2001" element="_FJQyK3jPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJZVA3jPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJZVBHjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJcYU3jPEeiYTOAnsvCMgw" type="3005" element="_FJQyLHjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJcYVHjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJcYVXjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJZVAXjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJZVAnjPEeiYTOAnsvCMgw" x="303" y="350" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJZVBXjPEeiYTOAnsvCMgw" type="2001" element="_FJQyLXjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJZ8EHjPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJZ8EXjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJcYVnjPEeiYTOAnsvCMgw" type="3005" element="_FJQyLnjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJcYV3jPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJcYWHjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJZVBnjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJZVB3jPEeiYTOAnsvCMgw" x="605" y="350" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJajIHjPEeiYTOAnsvCMgw" type="2001" element="_FJQyL3jPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJajI3jPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJajJHjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJcYWXjPEeiYTOAnsvCMgw" type="3005" element="_FJQyMHjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJcYWnjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJcYW3jPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJajIXjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJajInjPEeiYTOAnsvCMgw" x="402" y="350" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJajJXjPEeiYTOAnsvCMgw" type="2001" element="_FJQyMXjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJbKMHjPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJbKMXjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJcYXHjPEeiYTOAnsvCMgw" type="3005" element="_FJQyMnjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJcYXXjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJcYXnjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJajJnjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJajJ3jPEeiYTOAnsvCMgw" x="506" y="350" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJbKMnjPEeiYTOAnsvCMgw" type="2001" element="_FJQyM3jPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJbKNXjPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJbKNnjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJc_YHjPEeiYTOAnsvCMgw" type="3005" element="_FJQyNHjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJc_YXjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJc_YnjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJbKM3jPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJbKNHjPEeiYTOAnsvCMgw" x="505" y="250" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_FJbKN3jPEeiYTOAnsvCMgw" type="2001" element="_FJQyNXjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJbxQHjPEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_FJbxQXjPEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJc_Y3jPEeiYTOAnsvCMgw" type="3005" element="_FJQyNnjPEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FJc_ZHjPEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJc_ZXjPEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_FJbKOHjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJbKOXjPEeiYTOAnsvCMgw" x="456" y="450" width="40" height="40"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_FJQyVXjPEeiYTOAnsvCMgw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_FJc_ZnjPEeiYTOAnsvCMgw" type="4001" element="_FJQyN3jPEeiYTOAnsvCMgw" source="_FJbKN3jPEeiYTOAnsvCMgw" target="_FJZVAHjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJc_anjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJc_a3jPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJdmcHjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJdmcXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJdmcnjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJdmc3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJc_Z3jPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJc_aHjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJc_aXjPEeiYTOAnsvCMgw" points="[0, 0, 150, 60]$[-150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJdmdHjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJdmdXjPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJdmdnjPEeiYTOAnsvCMgw" type="4001" element="_FJQyOnjPEeiYTOAnsvCMgw" source="_FJbKN3jPEeiYTOAnsvCMgw" target="_FJajJXjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJdmenjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJdme3jPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJdmfHjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJdmfXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJdmfnjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJdmf3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJdmd3jPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJdmeHjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJdmeXjPEeiYTOAnsvCMgw" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJdmgHjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJdmgXjPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJdmgnjPEeiYTOAnsvCMgw" type="4001" element="_FJQyPXjPEeiYTOAnsvCMgw" source="_FJbKN3jPEeiYTOAnsvCMgw" target="_FJZVBXjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJeNgHjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJeNgXjPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJeNgnjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJeNg3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJeNhHjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJeNhXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJdmg3jPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJdmhHjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJdmhXjPEeiYTOAnsvCMgw" points="[0, 0, -150, 60]$[150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJeNhnjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJeNh3jPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJeNiHjPEeiYTOAnsvCMgw" type="4001" element="_FJQyQHjPEeiYTOAnsvCMgw" source="_FJbKN3jPEeiYTOAnsvCMgw" target="_FJajIHjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJeNjHjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJeNjXjPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJeNjnjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJeNj3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJeNkHjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJeNkXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJeNiXjPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJeNinjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJeNi3jPEeiYTOAnsvCMgw" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJeNknjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJeNk3jPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJeNlHjPEeiYTOAnsvCMgw" type="4001" element="_FJQyQ3jPEeiYTOAnsvCMgw" source="_FJajJXjPEeiYTOAnsvCMgw" target="_FJbKMnjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJe0kHjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJe0kXjPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJe0knjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJe0k3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJk7MHjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJk7MXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJeNlXjPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJeNlnjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJeNl3jPEeiYTOAnsvCMgw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJliQHjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJliQXjPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJliQnjPEeiYTOAnsvCMgw" type="4001" element="_FJQyRnjPEeiYTOAnsvCMgw" source="_FJZVAHjPEeiYTOAnsvCMgw" target="_FJQyVnjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJliRnjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJliR3jPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJliSHjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJliSXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJliSnjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJliS3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJliQ3jPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJliRHjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJliRXjPEeiYTOAnsvCMgw" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJliTHjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJliTXjPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJsP8HjPEeiYTOAnsvCMgw" type="4001" element="_FJQySXjPEeiYTOAnsvCMgw" source="_FJZVAHjPEeiYTOAnsvCMgw" target="_FJYG4HjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJuFIHjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJuFIXjPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJuFInjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJuFI3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJusMHjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJusMXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJsP8XjPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJsP8njPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJsP83jPEeiYTOAnsvCMgw" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJusMnjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJusM3jPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJusNHjPEeiYTOAnsvCMgw" type="4001" element="_FJQyTHjPEeiYTOAnsvCMgw" source="_FJbKMnjPEeiYTOAnsvCMgw" target="_FJYt8HjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJvTQHjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJvTQXjPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJvTQnjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJvTQ3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJvTRHjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJvTRXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJusNXjPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJusNnjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJusN3jPEeiYTOAnsvCMgw" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJvTRnjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJvTR3jPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_FJvTSHjPEeiYTOAnsvCMgw" type="4001" element="_FJQyT3jPEeiYTOAnsvCMgw" source="_FJbKMnjPEeiYTOAnsvCMgw" target="_FJYt9XjPEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_FJvTTHjPEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJvTTXjPEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJvTTnjPEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJvTT3jPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_FJvTUHjPEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FJvTUXjPEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_FJvTSXjPEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_FJvTSnjPEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FJvTS3jPEeiYTOAnsvCMgw" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJv6UHjPEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FJv6UXjPEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyI3jPEeiYTOAnsvCMgw" name="cnh" tooltipText="Atributo de uma Caracteristica" incomingEdges="_FJQyRnjPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyJHjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.0"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyJXjPEeiYTOAnsvCMgw" name="endereco" tooltipText="Atributo de uma Caracteristica" incomingEdges="_FJQySXjPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyJnjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.1"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyJ3jPEeiYTOAnsvCMgw" name="ano" tooltipText="Atributo de uma Caracteristica" incomingEdges="_FJQyTHjPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyKHjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.0"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyKXjPEeiYTOAnsvCMgw" name="modelo" tooltipText="Atributo de uma Caracteristica" incomingEdges="_FJQyT3jPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyKnjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.1"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyK3jPEeiYTOAnsvCMgw" name="Cliente" tooltipText="Cliente da Loja" outgoingEdges="_FJQyRnjPEeiYTOAnsvCMgw _FJQySXjPEeiYTOAnsvCMgw" incomingEdges="_FJQyN3jPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyLHjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/cliente.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Cliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Cliente']"/>
+      <target xmi:type="comercio:Cliente" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente"/>
+      <semanticElements xmi:type="comercio:Cliente" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyLXjPEeiYTOAnsvCMgw" name="Dinheiro" tooltipText="" incomingEdges="_FJQyPXjPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyLnjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/formaPagamento.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']"/>
+      <target xmi:type="comercio:FormaPagamento" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@formasPagamento.0"/>
+      <semanticElements xmi:type="comercio:FormaPagamento" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@formasPagamento.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyL3jPEeiYTOAnsvCMgw" name="Cartao" tooltipText="" incomingEdges="_FJQyQHjPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyMHjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/formaPagamento.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']"/>
+      <target xmi:type="comercio:FormaPagamento" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@formasPagamento.1"/>
+      <semanticElements xmi:type="comercio:FormaPagamento" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@formasPagamento.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyMXjPEeiYTOAnsvCMgw" name="ItemVendaVeiculo" tooltipText="Item Venda/Aluguel" outgoingEdges="_FJQyQ3jPEeiYTOAnsvCMgw" incomingEdges="_FJQyOnjPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyMnjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/item.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Item']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Item']"/>
+      <target xmi:type="comercio:Item" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item"/>
+      <semanticElements xmi:type="comercio:Item" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyM3jPEeiYTOAnsvCMgw" name="Nissan Versa" tooltipText="Produto da Loja" outgoingEdges="_FJQyTHjPEeiYTOAnsvCMgw _FJQyT3jPEeiYTOAnsvCMgw" incomingEdges="_FJQyQ3jPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyNHjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/produto.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Produto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Produto']"/>
+      <target xmi:type="comercio:Produto" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+      <semanticElements xmi:type="comercio:Produto" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FJQyNXjPEeiYTOAnsvCMgw" name="VendaVeiculo" tooltipText="Transação de Venda" outgoingEdges="_FJQyN3jPEeiYTOAnsvCMgw _FJQyOnjPEeiYTOAnsvCMgw _FJQyPXjPEeiYTOAnsvCMgw _FJQyQHjPEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_FJQyNnjPEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/venda.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Venda']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Venda']"/>
+      <target xmi:type="comercio:Venda" href="modelos_comercio/LojaVeiculos.comercio#//@transacao"/>
+      <semanticElements xmi:type="comercio:Venda" href="modelos_comercio/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyN3jPEeiYTOAnsvCMgw" sourceNode="_FJQyNXjPEeiYTOAnsvCMgw" targetNode="_FJQyK3jPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyOHjPEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyOXjPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelos_comercio/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyOnjPEeiYTOAnsvCMgw" sourceNode="_FJQyNXjPEeiYTOAnsvCMgw" targetNode="_FJQyMXjPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyO3jPEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyPHjPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelos_comercio/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyPXjPEeiYTOAnsvCMgw" sourceNode="_FJQyNXjPEeiYTOAnsvCMgw" targetNode="_FJQyLXjPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyPnjPEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyP3jPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelos_comercio/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyQHjPEeiYTOAnsvCMgw" sourceNode="_FJQyNXjPEeiYTOAnsvCMgw" targetNode="_FJQyL3jPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyQXjPEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyQnjPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelos_comercio/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyQ3jPEeiYTOAnsvCMgw" sourceNode="_FJQyMXjPEeiYTOAnsvCMgw" targetNode="_FJQyM3jPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyRHjPEeiYTOAnsvCMgw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='itemEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyRXjPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='itemEdge']"/>
+      <target xmi:type="comercio:Item" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyRnjPEeiYTOAnsvCMgw" sourceNode="_FJQyK3jPEeiYTOAnsvCMgw" targetNode="_FJQyI3jPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyR3jPEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQySHjPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']"/>
+      <target xmi:type="comercio:Cliente" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQySXjPEeiYTOAnsvCMgw" sourceNode="_FJQyK3jPEeiYTOAnsvCMgw" targetNode="_FJQyJXjPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQySnjPEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyS3jPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']"/>
+      <target xmi:type="comercio:Cliente" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyTHjPEeiYTOAnsvCMgw" sourceNode="_FJQyM3jPEeiYTOAnsvCMgw" targetNode="_FJQyJ3jPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyTXjPEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyTnjPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']"/>
+      <target xmi:type="comercio:Produto" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FJQyT3jPEeiYTOAnsvCMgw" sourceNode="_FJQyM3jPEeiYTOAnsvCMgw" targetNode="_FJQyKXjPEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FJQyUHjPEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FJQyUXjPEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']"/>
+      <target xmi:type="comercio:Produto" href="modelos_comercio/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_FJQyUnjPEeiYTOAnsvCMgw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/ddr.tp.design.advanced/description/tp.odesign#//@ownedViewpoints[name='comercios_advanced']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer"/>
+    <target xmi:type="comercio:Aplicativo" href="modelos_comercio/LojaVeiculos.comercio#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_2Wti0XjZEeiYTOAnsvCMgw" name="Loja Veiculos">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_2Wti0njZEeiYTOAnsvCMgw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_2Wti03jZEeiYTOAnsvCMgw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_2WtjBHjZEeiYTOAnsvCMgw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_2WtjBXjZEeiYTOAnsvCMgw" type="Sirius" element="_2Wti0XjZEeiYTOAnsvCMgw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_2WtjB3jZEeiYTOAnsvCMgw" type="2001" element="_2Wti1HjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WuJ4HjZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2WuJ4XjZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WvYDHjZEeiYTOAnsvCMgw" type="3005" element="_2Wti1XjZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2WvYDXjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WvYDnjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2WtjCHjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WtjCXjZEeiYTOAnsvCMgw" x="173" y="175" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2WuJ4njZEeiYTOAnsvCMgw" type="2001" element="_2Wti1njZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WuJ5XjZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2WuJ5njZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_EHjZEeiYTOAnsvCMgw" type="3005" element="_2Wti13jZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_EXjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_EnjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2WuJ43jZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WuJ5HjZEeiYTOAnsvCMgw" x="274" y="175" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2WuJ53jZEeiYTOAnsvCMgw" type="2001" element="_2Wti2HjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WuJ6njZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2WuJ63jZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_E3jZEeiYTOAnsvCMgw" type="3005" element="_2Wti2XjZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_FHjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_FXjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2WuJ6HjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WuJ6XjZEeiYTOAnsvCMgw" x="373" y="73" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2WuJ7HjZEeiYTOAnsvCMgw" type="2001" element="_2Wti2njZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2Wuw8HjZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Wuw8XjZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_FnjZEeiYTOAnsvCMgw" type="3005" element="_2Wti23jZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_F3jZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_GHjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2WuJ7XjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WuJ7njZEeiYTOAnsvCMgw" x="471" y="73" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2Wuw8njZEeiYTOAnsvCMgw" type="2001" element="_2Wti3HjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2Wuw9XjZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Wuw9njZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_GXjZEeiYTOAnsvCMgw" type="3005" element="_2Wti3XjZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_GnjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_G3jZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wuw83jZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wuw9HjZEeiYTOAnsvCMgw" x="165" y="260" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2Wuw93jZEeiYTOAnsvCMgw" type="2001" element="_2Wti3njZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2Wuw-njZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2Wuw-3jZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_HHjZEeiYTOAnsvCMgw" type="3005" element="_2Wti33jZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_HXjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_HnjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wuw-HjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wuw-XjZEeiYTOAnsvCMgw" x="523" y="275" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2Wuw_HjZEeiYTOAnsvCMgw" type="2001" element="_2Wti4HjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2Wuw_3jZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2WuxAHjZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_H3jZEeiYTOAnsvCMgw" type="3005" element="_2Wti4XjZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_IHjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_IXjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wuw_XjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wuw_njZEeiYTOAnsvCMgw" x="320" y="275" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2WuxAXjZEeiYTOAnsvCMgw" type="2001" element="_2Wti4njZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WvYAHjZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2WvYAXjZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_InjZEeiYTOAnsvCMgw" type="3005" element="_2Wti43jZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_I3jZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_JHjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2WuxAnjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WuxA3jZEeiYTOAnsvCMgw" x="424" y="275" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2WvYAnjZEeiYTOAnsvCMgw" type="2001" element="_2Wti5HjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WvYBXjZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2WvYBnjZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_JXjZEeiYTOAnsvCMgw" type="3005" element="_2Wti5XjZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_JnjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_J3jZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2WvYA3jZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WvYBHjZEeiYTOAnsvCMgw" x="423" y="175" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_2WvYB3jZEeiYTOAnsvCMgw" type="2001" element="_2Wti5njZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WvYCnjZEeiYTOAnsvCMgw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2WvYC3jZEeiYTOAnsvCMgw" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wv_KHjZEeiYTOAnsvCMgw" type="3005" element="_2Wti53jZEeiYTOAnsvCMgw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Wv_KXjZEeiYTOAnsvCMgw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wv_KnjZEeiYTOAnsvCMgw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_2WvYCHjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WvYCXjZEeiYTOAnsvCMgw" x="374" y="375" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_fcirgHk5EeiPPJNXirOj7g" type="2001" element="_fceaEHk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_fcjSkHk5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fcjSkXk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fcj5oHk5EeiPPJNXirOj7g" type="3005" element="_fcfBIHk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fcj5oXk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fcj5onk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_fcirgXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fcirgnk5EeiPPJNXirOj7g" x="255" y="270" width="40" height="40"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_2WtjBnjZEeiYTOAnsvCMgw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_2WwmIHjZEeiYTOAnsvCMgw" type="4001" element="_2Wti6HjZEeiYTOAnsvCMgw" source="_2WvYB3jZEeiYTOAnsvCMgw" target="_2Wuw8njZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WwmJHjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WwmJXjZEeiYTOAnsvCMgw" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WwmJnjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WwmJ3jZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WwmKHjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WwmKXjZEeiYTOAnsvCMgw" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2WwmIXjZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2WwmInjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2WwmI3jZEeiYTOAnsvCMgw" points="[0, 8, 209, 83]$[-209, -75, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WwmKnjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WwmK3jZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2WwmLHjZEeiYTOAnsvCMgw" type="4001" element="_2Wti63jZEeiYTOAnsvCMgw" source="_2WvYB3jZEeiYTOAnsvCMgw" target="_2WuxAXjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WwmMHjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WwmMXjZEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WwmMnjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WwmM3jZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WwmNHjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WwmNXjZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2WwmLXjZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2WwmLnjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2WwmL3jZEeiYTOAnsvCMgw" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WwmNnjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WwmN3jZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2WxNMHjZEeiYTOAnsvCMgw" type="4001" element="_2Wti7njZEeiYTOAnsvCMgw" source="_2WvYB3jZEeiYTOAnsvCMgw" target="_2Wuw93jZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WxNNHjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WxNNXjZEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WxNNnjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WxNN3jZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WxNOHjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WxNOXjZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2WxNMXjZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2WxNMnjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2WxNM3jZEeiYTOAnsvCMgw" points="[0, 0, -150, 60]$[150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WxNOnjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WxNO3jZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2WxNPHjZEeiYTOAnsvCMgw" type="4001" element="_2Wti8XjZEeiYTOAnsvCMgw" source="_2WvYB3jZEeiYTOAnsvCMgw" target="_2Wuw_HjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WxNQHjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WxNQXjZEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WxNQnjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WxNQ3jZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WxNRHjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WxNRXjZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2WxNPXjZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2WxNPnjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2WxNP3jZEeiYTOAnsvCMgw" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WxNRnjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WxNR3jZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2WxNSHjZEeiYTOAnsvCMgw" type="4001" element="_2Wti9HjZEeiYTOAnsvCMgw" source="_2WuxAXjZEeiYTOAnsvCMgw" target="_2WvYAnjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WxNTHjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WxNTXjZEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wx0QHjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0QXjZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wx0QnjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0Q3jZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2WxNSXjZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2WxNSnjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2WxNS3jZEeiYTOAnsvCMgw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Wx0RHjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Wx0RXjZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2Wx0RnjZEeiYTOAnsvCMgw" type="4001" element="_2Wti93jZEeiYTOAnsvCMgw" source="_2Wuw8njZEeiYTOAnsvCMgw" target="_2WtjB3jZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2Wx0SnjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0S3jZEeiYTOAnsvCMgw" x="-7" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wx0THjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0TXjZEeiYTOAnsvCMgw" x="7" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wx0TnjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0T3jZEeiYTOAnsvCMgw" x="7" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Wx0R3jZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2Wx0SHjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Wx0SXjZEeiYTOAnsvCMgw" points="[0, 0, -8, 45]$[8, -47, 0, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Wx0UHjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Wx0UXjZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2Wx0UnjZEeiYTOAnsvCMgw" type="4001" element="_2Wti-njZEeiYTOAnsvCMgw" source="_2Wuw8njZEeiYTOAnsvCMgw" target="_2WuJ4njZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2Wx0VnjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0V3jZEeiYTOAnsvCMgw" x="-4" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wx0WHjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0WXjZEeiYTOAnsvCMgw" x="4" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Wx0WnjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0W3jZEeiYTOAnsvCMgw" x="4" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Wx0U3jZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2Wx0VHjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Wx0VXjZEeiYTOAnsvCMgw" points="[0, 0, -109, 45]$[109, -47, 0, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Wx0XHjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Wx0XXjZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2Wx0XnjZEeiYTOAnsvCMgw" type="4001" element="_2Wti_XjZEeiYTOAnsvCMgw" source="_2WvYAnjZEeiYTOAnsvCMgw" target="_2WuJ53jZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2Wx0YnjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Wx0Y3jZEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WybUHjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WybUXjZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WybUnjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WybU3jZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Wx0X3jZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2Wx0YHjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Wx0YXjZEeiYTOAnsvCMgw" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WybVHjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WybVXjZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2WybVnjZEeiYTOAnsvCMgw" type="4001" element="_2WtjAHjZEeiYTOAnsvCMgw" source="_2WvYAnjZEeiYTOAnsvCMgw" target="_2WuJ7HjZEeiYTOAnsvCMgw">
+          <children xmi:type="notation:Node" xmi:id="_2WybWnjZEeiYTOAnsvCMgw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WybW3jZEeiYTOAnsvCMgw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WybXHjZEeiYTOAnsvCMgw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WybXXjZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2WybXnjZEeiYTOAnsvCMgw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2WybX3jZEeiYTOAnsvCMgw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2WybV3jZEeiYTOAnsvCMgw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2WybWHjZEeiYTOAnsvCMgw" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2WybWXjZEeiYTOAnsvCMgw" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WybYHjZEeiYTOAnsvCMgw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2WybYXjZEeiYTOAnsvCMgw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fcj5o3k5EeiPPJNXirOj7g" type="4001" element="_fcgPQHk5EeiPPJNXirOj7g" source="_2WvYB3jZEeiYTOAnsvCMgw" target="_fcirgHk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_fckgsHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fckgsXk5EeiPPJNXirOj7g" x="4" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fckgsnk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fckgs3k5EeiPPJNXirOj7g" x="-1" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fckgtHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fckgtXk5EeiPPJNXirOj7g" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fcj5pHk5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fcj5pXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fcj5pnk5EeiPPJNXirOj7g" points="[0, 8, 119, 73]$[-119, -65, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fckgtnk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fckgt3k5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti1HjZEeiYTOAnsvCMgw" name="cnh" incomingEdges="_2Wti93jZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti1XjZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.0"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti1njZEeiYTOAnsvCMgw" name="endereco" incomingEdges="_2Wti-njZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti13jZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.1"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti2HjZEeiYTOAnsvCMgw" name="ano" incomingEdges="_2Wti_XjZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti2XjZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.0"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti2njZEeiYTOAnsvCMgw" name="modelo" incomingEdges="_2WtjAHjZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti23jZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.1"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti3HjZEeiYTOAnsvCMgw" name="Cliente" outgoingEdges="_2Wti93jZEeiYTOAnsvCMgw _2Wti-njZEeiYTOAnsvCMgw" incomingEdges="_2Wti6HjZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti3XjZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/cliente.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Cliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Cliente']"/>
+      <target xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+      <semanticElements xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti3njZEeiYTOAnsvCMgw" name="Dinheiro" incomingEdges="_2Wti7njZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti33jZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/formaPagamento.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']"/>
+      <target xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.0"/>
+      <semanticElements xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti4HjZEeiYTOAnsvCMgw" name="Cartao" incomingEdges="_2Wti8XjZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti4XjZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/formaPagamento.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']"/>
+      <target xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.1"/>
+      <semanticElements xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_fceaEHk5EeiPPJNXirOj7g" name="Boleto" incomingEdges="_fcgPQHk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_fcfBIHk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/formaPagamento.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']"/>
+      <target xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.2"/>
+      <semanticElements xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.2"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti4njZEeiYTOAnsvCMgw" name="ItemVendaVeiculo" outgoingEdges="_2Wti9HjZEeiYTOAnsvCMgw" incomingEdges="_2Wti63jZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti43jZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/item.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Item']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Item']"/>
+      <target xmi:type="comercio:Item" href="modelo/LojaVeiculos.comercio#//@transacao/@item"/>
+      <semanticElements xmi:type="comercio:Item" href="modelo/LojaVeiculos.comercio#//@transacao/@item"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti5HjZEeiYTOAnsvCMgw" name="Nissan Versa" outgoingEdges="_2Wti_XjZEeiYTOAnsvCMgw _2WtjAHjZEeiYTOAnsvCMgw" incomingEdges="_2Wti9HjZEeiYTOAnsvCMgw" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti5XjZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/produto.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Produto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Produto']"/>
+      <target xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+      <semanticElements xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2Wti5njZEeiYTOAnsvCMgw" name="VendaVeiculo" outgoingEdges="_2Wti6HjZEeiYTOAnsvCMgw _2Wti63jZEeiYTOAnsvCMgw _2Wti7njZEeiYTOAnsvCMgw _2Wti8XjZEeiYTOAnsvCMgw _fcgPQHk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2Wti53jZEeiYTOAnsvCMgw" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/venda.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Venda']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Venda']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+      <semanticElements xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti6HjZEeiYTOAnsvCMgw" sourceNode="_2Wti5njZEeiYTOAnsvCMgw" targetNode="_2Wti3HjZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti6XjZEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti6njZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti63jZEeiYTOAnsvCMgw" sourceNode="_2Wti5njZEeiYTOAnsvCMgw" targetNode="_2Wti4njZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti7HjZEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti7XjZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti7njZEeiYTOAnsvCMgw" sourceNode="_2Wti5njZEeiYTOAnsvCMgw" targetNode="_2Wti3njZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti73jZEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti8HjZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti8XjZEeiYTOAnsvCMgw" sourceNode="_2Wti5njZEeiYTOAnsvCMgw" targetNode="_2Wti4HjZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti8njZEeiYTOAnsvCMgw" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti83jZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti9HjZEeiYTOAnsvCMgw" sourceNode="_2Wti4njZEeiYTOAnsvCMgw" targetNode="_2Wti5HjZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti9XjZEeiYTOAnsvCMgw" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='itemEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti9njZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='itemEdge']"/>
+      <target xmi:type="comercio:Item" href="modelo/LojaVeiculos.comercio#//@transacao/@item"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti93jZEeiYTOAnsvCMgw" sourceNode="_2Wti3HjZEeiYTOAnsvCMgw" targetNode="_2Wti1HjZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti-HjZEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti-XjZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']"/>
+      <target xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti-njZEeiYTOAnsvCMgw" sourceNode="_2Wti3HjZEeiYTOAnsvCMgw" targetNode="_2Wti1njZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti-3jZEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti_HjZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']"/>
+      <target xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2Wti_XjZEeiYTOAnsvCMgw" sourceNode="_2Wti5HjZEeiYTOAnsvCMgw" targetNode="_2Wti2HjZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2Wti_njZEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2Wti_3jZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']"/>
+      <target xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2WtjAHjZEeiYTOAnsvCMgw" sourceNode="_2Wti5HjZEeiYTOAnsvCMgw" targetNode="_2Wti2njZEeiYTOAnsvCMgw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2WtjAXjZEeiYTOAnsvCMgw" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2WtjAnjZEeiYTOAnsvCMgw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']"/>
+      <target xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_fcgPQHk5EeiPPJNXirOj7g" sourceNode="_2Wti5njZEeiYTOAnsvCMgw" targetNode="_fceaEHk5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_fcgPQXk5EeiPPJNXirOj7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_fcgPQnk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_2WtjA3jZEeiYTOAnsvCMgw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer"/>
+    <target xmi:type="comercio:Aplicativo" href="modelo/LojaVeiculos.comercio#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_afimAHk5EeiPPJNXirOj7g" name="new Comercios diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_afimAXk5EeiPPJNXirOj7g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_afimAnk5EeiPPJNXirOj7g"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_afrv8Hk5EeiPPJNXirOj7g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_afrv8Xk5EeiPPJNXirOj7g" type="Sirius" element="_afimAHk5EeiPPJNXirOj7g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_aftlIHk5EeiPPJNXirOj7g" type="2001" element="_afimA3k5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_afzrwHk5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_afzrwXk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af-D0Hk5EeiPPJNXirOj7g" type="3005" element="_afimBHk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_af-D0Xk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af-D0nk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_aftlIXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aftlInk5EeiPPJNXirOj7g" x="125" y="195" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af39MHk5EeiPPJNXirOj7g" type="2001" element="_afimBXk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af4kQHk5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af4kQXk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af-D03k5EeiPPJNXirOj7g" type="3005" element="_afimBnk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_af-D1Hk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af-D1Xk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af39MXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af39Mnk5EeiPPJNXirOj7g" x="226" y="195" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af4kQnk5EeiPPJNXirOj7g" type="2001" element="_afimB3k5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af5LUHk5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af5LUXk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af-q4Hk5EeiPPJNXirOj7g" type="3005" element="_afimCHk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_af-q4Xk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af-q4nk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af4kQ3k5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af4kRHk5EeiPPJNXirOj7g" x="325" y="93" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af5LUnk5EeiPPJNXirOj7g" type="2001" element="_afimCXk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af5yYHk5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af5yYXk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af-q43k5EeiPPJNXirOj7g" type="3005" element="_afimCnk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_af-q5Hk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af-q5Xk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af5LU3k5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af5LVHk5EeiPPJNXirOj7g" x="423" y="93" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af5yYnk5EeiPPJNXirOj7g" type="2001" element="_afimC3k5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af6ZcHk5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af6ZcXk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af_R8Hk5EeiPPJNXirOj7g" type="3005" element="_afimDHk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_af_R8Xk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_R8nk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af5yY3k5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af5yZHk5EeiPPJNXirOj7g" x="173" y="295" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af6Zcnk5EeiPPJNXirOj7g" type="2001" element="_afimDXk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af6ZdXk5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af6Zdnk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af_5AHk5EeiPPJNXirOj7g" type="3005" element="_afimDnk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_af_5AXk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_5Ank5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af6Zc3k5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af6ZdHk5EeiPPJNXirOj7g" x="275" y="295" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af7AgHk5EeiPPJNXirOj7g" type="2001" element="_afimD3k5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af7Ag3k5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af7AhHk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agAgEHk5EeiPPJNXirOj7g" type="3005" element="_afimEHk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_agAgEXk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agAgEnk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af7AgXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af7Agnk5EeiPPJNXirOj7g" x="472" y="295" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af7nkHk5EeiPPJNXirOj7g" type="2001" element="_afimEXk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af7nk3k5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af7nlHk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agAgE3k5EeiPPJNXirOj7g" type="3005" element="_afimEnk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_agAgFHk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agAgFXk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af7nkXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af7nknk5EeiPPJNXirOj7g" x="376" y="295" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af8OoHk5EeiPPJNXirOj7g" type="2001" element="_afimE3k5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af8Oo3k5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af8OpHk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agBHIHk5EeiPPJNXirOj7g" type="3005" element="_afimFHk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_agBHIXk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agBHInk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af8OoXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af8Oonk5EeiPPJNXirOj7g" x="375" y="195" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_af81sHk5EeiPPJNXirOj7g" type="2001" element="_afimFXk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_af81s3k5EeiPPJNXirOj7g" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_af81tHk5EeiPPJNXirOj7g" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agBHI3k5EeiPPJNXirOj7g" type="3005" element="_afimFnk5EeiPPJNXirOj7g">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_agBHJHk5EeiPPJNXirOj7g" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agBHJXk5EeiPPJNXirOj7g"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_af81sXk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af81snk5EeiPPJNXirOj7g" x="326" y="395" width="40" height="40"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_afrv8nk5EeiPPJNXirOj7g"/>
+        <edges xmi:type="notation:Edge" xmi:id="_agCVQHk5EeiPPJNXirOj7g" type="4001" element="_afimF3k5EeiPPJNXirOj7g" source="_af81sHk5EeiPPJNXirOj7g" target="_af5yYnk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agEKcHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agEKcXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agExgHk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agExgXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agFYkHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agFYkXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agCVQXk5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agCVQnk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agCVQ3k5EeiPPJNXirOj7g" points="[0, 0, 150, 60]$[-150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agJqAHk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agJqAXk5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agJqAnk5EeiPPJNXirOj7g" type="4001" element="_afimGnk5EeiPPJNXirOj7g" source="_af81sHk5EeiPPJNXirOj7g" target="_af7nkHk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agKREHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agKREXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agKREnk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agKRE3k5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agKRFHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agKRFXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agJqA3k5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agJqBHk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agJqBXk5EeiPPJNXirOj7g" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agPJkHk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agPJkXk5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agPJknk5EeiPPJNXirOj7g" type="4001" element="_afimHXk5EeiPPJNXirOj7g" source="_af81sHk5EeiPPJNXirOj7g" target="_af6Zcnk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agPwoHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agPwoXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agPwonk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agPwo3k5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agPwpHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agPwpXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agPJk3k5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agPJlHk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agPJlXk5EeiPPJNXirOj7g" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agSz8Hk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agSz8Xk5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agTbAHk5EeiPPJNXirOj7g" type="4001" element="_afimIHk5EeiPPJNXirOj7g" source="_af81sHk5EeiPPJNXirOj7g" target="_af7AgHk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agTbBHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agTbBXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agTbBnk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agTbB3k5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agTbCHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agTbCXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agTbAXk5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agTbAnk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agTbA3k5EeiPPJNXirOj7g" points="[0, 0, -150, 60]$[150, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agTbCnk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agTbC3k5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agUCEHk5EeiPPJNXirOj7g" type="4001" element="_afimI3k5EeiPPJNXirOj7g" source="_af7nkHk5EeiPPJNXirOj7g" target="_af8OoHk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agVQMHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agVQMXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agVQMnk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agVQM3k5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agVQNHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agVQNXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agUCEXk5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agUCEnk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agUCE3k5EeiPPJNXirOj7g" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agVQNnk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agVQN3k5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agVQOHk5EeiPPJNXirOj7g" type="4001" element="_afimJnk5EeiPPJNXirOj7g" source="_af5yYnk5EeiPPJNXirOj7g" target="_aftlIHk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agV3QHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agV3QXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agV3Qnk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agV3Q3k5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agV3RHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agV3RXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agVQOXk5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agVQOnk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agVQO3k5EeiPPJNXirOj7g" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agV3Rnk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agV3R3k5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agV3SHk5EeiPPJNXirOj7g" type="4001" element="_afimKXk5EeiPPJNXirOj7g" source="_af5yYnk5EeiPPJNXirOj7g" target="_af39MHk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agWeUHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agWeUXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agWeUnk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agWeU3k5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agWeVHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agWeVXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agV3SXk5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agV3Snk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agV3S3k5EeiPPJNXirOj7g" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agWeVnk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agWeV3k5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agWeWHk5EeiPPJNXirOj7g" type="4001" element="_afimLHk5EeiPPJNXirOj7g" source="_af8OoHk5EeiPPJNXirOj7g" target="_af4kQnk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agWeXHk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agWeXXk5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agWeXnk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agWeX3k5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agWeYHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agWeYXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agWeWXk5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agWeWnk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agWeW3k5EeiPPJNXirOj7g" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agXFYHk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agXFYXk5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_agXFYnk5EeiPPJNXirOj7g" type="4001" element="_afimL3k5EeiPPJNXirOj7g" source="_af8OoHk5EeiPPJNXirOj7g" target="_af5LUnk5EeiPPJNXirOj7g">
+          <children xmi:type="notation:Node" xmi:id="_agXFZnk5EeiPPJNXirOj7g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agXFZ3k5EeiPPJNXirOj7g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agXscHk5EeiPPJNXirOj7g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agXscXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_agYTgHk5EeiPPJNXirOj7g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_agYTgXk5EeiPPJNXirOj7g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_agXFY3k5EeiPPJNXirOj7g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_agXFZHk5EeiPPJNXirOj7g" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agXFZXk5EeiPPJNXirOj7g" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agYTgnk5EeiPPJNXirOj7g" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agYTg3k5EeiPPJNXirOj7g" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimA3k5EeiPPJNXirOj7g" name="cnh" incomingEdges="_afimJnk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimBHk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.0"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimBXk5EeiPPJNXirOj7g" name="endereco" incomingEdges="_afimKXk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimBnk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.1"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente/@atributos.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimB3k5EeiPPJNXirOj7g" name="ano" incomingEdges="_afimLHk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimCHk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.0"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimCXk5EeiPPJNXirOj7g" name="modelo" incomingEdges="_afimL3k5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimCnk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/atributo.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Atributo']"/>
+      <target xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.1"/>
+      <semanticElements xmi:type="comercio:Atributo" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto/@atributos.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimC3k5EeiPPJNXirOj7g" name="Cliente" outgoingEdges="_afimJnk5EeiPPJNXirOj7g _afimKXk5EeiPPJNXirOj7g" incomingEdges="_afimF3k5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimDHk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/cliente.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Cliente']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Cliente']"/>
+      <target xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+      <semanticElements xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimDXk5EeiPPJNXirOj7g" name="Dinheiro" incomingEdges="_afimHXk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimDnk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/formaPagamento.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']"/>
+      <target xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.0"/>
+      <semanticElements xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimD3k5EeiPPJNXirOj7g" name="Cartao" incomingEdges="_afimIHk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimEHk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/formaPagamento.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='FormaPagamento']"/>
+      <target xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.1"/>
+      <semanticElements xmi:type="comercio:FormaPagamento" href="modelo/LojaVeiculos.comercio#//@transacao/@formasPagamento.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimEXk5EeiPPJNXirOj7g" name="ItemVendaVeiculo" outgoingEdges="_afimI3k5EeiPPJNXirOj7g" incomingEdges="_afimGnk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimEnk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/item.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Item']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Item']"/>
+      <target xmi:type="comercio:Item" href="modelo/LojaVeiculos.comercio#//@transacao/@item"/>
+      <semanticElements xmi:type="comercio:Item" href="modelo/LojaVeiculos.comercio#//@transacao/@item"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimE3k5EeiPPJNXirOj7g" name="Nissan Versa" outgoingEdges="_afimLHk5EeiPPJNXirOj7g _afimL3k5EeiPPJNXirOj7g" incomingEdges="_afimI3k5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimFHk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/produto.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Produto']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Produto']"/>
+      <target xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+      <semanticElements xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_afimFXk5EeiPPJNXirOj7g" name="VendaVeiculo" outgoingEdges="_afimF3k5EeiPPJNXirOj7g _afimGnk5EeiPPJNXirOj7g _afimHXk5EeiPPJNXirOj7g _afimIHk5EeiPPJNXirOj7g" width="4" height="4" resizeKind="NSEW">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_afimFnk5EeiPPJNXirOj7g" showIcon="false" labelAlignment="LEFT" workspacePath="/ddr.tp.design/comercioIcones/venda.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Venda']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@nodeMappings[name='Venda']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+      <semanticElements xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimF3k5EeiPPJNXirOj7g" sourceNode="_afimFXk5EeiPPJNXirOj7g" targetNode="_afimC3k5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimGHk5EeiPPJNXirOj7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimGXk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimGnk5EeiPPJNXirOj7g" sourceNode="_afimFXk5EeiPPJNXirOj7g" targetNode="_afimEXk5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimG3k5EeiPPJNXirOj7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimHHk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimHXk5EeiPPJNXirOj7g" sourceNode="_afimFXk5EeiPPJNXirOj7g" targetNode="_afimDXk5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimHnk5EeiPPJNXirOj7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimH3k5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimIHk5EeiPPJNXirOj7g" sourceNode="_afimFXk5EeiPPJNXirOj7g" targetNode="_afimD3k5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimIXk5EeiPPJNXirOj7g" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimInk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='vendaEdge']"/>
+      <target xmi:type="comercio:Venda" href="modelo/LojaVeiculos.comercio#//@transacao"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimI3k5EeiPPJNXirOj7g" sourceNode="_afimEXk5EeiPPJNXirOj7g" targetNode="_afimE3k5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimJHk5EeiPPJNXirOj7g" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='itemEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimJXk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='itemEdge']"/>
+      <target xmi:type="comercio:Item" href="modelo/LojaVeiculos.comercio#//@transacao/@item"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimJnk5EeiPPJNXirOj7g" sourceNode="_afimC3k5EeiPPJNXirOj7g" targetNode="_afimA3k5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimJ3k5EeiPPJNXirOj7g" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimKHk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']"/>
+      <target xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimKXk5EeiPPJNXirOj7g" sourceNode="_afimC3k5EeiPPJNXirOj7g" targetNode="_afimBXk5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimKnk5EeiPPJNXirOj7g" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimK3k5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='clienteEdge']"/>
+      <target xmi:type="comercio:Cliente" href="modelo/LojaVeiculos.comercio#//@transacao/@cliente"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimLHk5EeiPPJNXirOj7g" sourceNode="_afimE3k5EeiPPJNXirOj7g" targetNode="_afimB3k5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimLXk5EeiPPJNXirOj7g" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimLnk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']"/>
+      <target xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_afimL3k5EeiPPJNXirOj7g" sourceNode="_afimE3k5EeiPPJNXirOj7g" targetNode="_afimCXk5EeiPPJNXirOj7g">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_afimMHk5EeiPPJNXirOj7g" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_afimMXk5EeiPPJNXirOj7g"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer/@edgeMappings[name='produtoEdge']"/>
+      <target xmi:type="comercio:Produto" href="modelo/LojaVeiculos.comercio#//@transacao/@item/@produto"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_afimMnk5EeiPPJNXirOj7g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/ddr.tp.design/description/tp.odesign#//@ownedViewpoints[name='comercios']/@ownedRepresentations[name='Comercios%20diagram']/@defaultLayer"/>
+    <target xmi:type="comercio:Aplicativo" href="modelo/LojaVeiculos.comercio#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

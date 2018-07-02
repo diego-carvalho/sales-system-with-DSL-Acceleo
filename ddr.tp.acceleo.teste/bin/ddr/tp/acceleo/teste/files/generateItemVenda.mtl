@@ -1,0 +1,47 @@
+[comment encoding = UTF-8 /]
+[module generateItemVenda('http://comercio')]
+
+[import ddr::tp::acceleo::teste::files::generateProduto /]
+
+[template public generateItemVenda(anItem : Item)]
+
+[file ('model/'+nome.toUpperFirst()+'.java', false, 'UTF-8')]
+package model;
+
+public class [nome.toUpperFirst()/] {
+	[for (at : Atributo | atributos)]
+	private [at.tipo/] [at.nome/];
+	[/for]
+	private [produto.nome.toUpperFirst()/] produto;
+	
+	public [nome.toUpperFirst()/]([for (at : Atributo | atributos) separator (', ')][at.tipo/] [at.nome/][/for], [produto.nome.toUpperFirst()/] produto) {
+		[for (at : Atributo | atributos)]
+		this.[at.nome/] = [at.nome/];
+		[/for]
+		this.produto = produto;
+	}
+
+	[for (at : Atributo | atributos)]
+	public [at.tipo/] get[at.nome.toUpperFirst()/]() {
+		return [at.nome/];
+	}
+	[/for]
+
+	public [produto.nome.toUpperFirst()/] getProduto() {
+		return produto;
+	}
+
+	[for (at : Atributo | atributos) separator ('\n')]
+	public void set[at.nome.toUpperFirst()/]([at.tipo/] [at.nome/]) {
+		this.[at.nome/] = [at.nome/];
+	}
+	[/for]
+
+	public void setProduto([produto.nome.toUpperFirst()/] produto) {
+		this.produto = produto;
+	}
+}
+[/file]
+
+[generateProduto(produto)/]
+[/template]

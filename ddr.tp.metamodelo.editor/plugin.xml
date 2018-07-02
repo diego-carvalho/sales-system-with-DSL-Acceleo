@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated comercio -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="comercio.presentation.ComercioModelWizardID"
+            name="%_UI_ComercioModelWizard_label"
+            class="comercio.presentation.ComercioModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ComercioModelFile.gif">
+         <description>%_UI_ComercioModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated comercio -->
+      <editor
+            id="comercio.presentation.ComercioEditorID"
+            name="%_UI_ComercioEditor_label"
+            icon="icons/full/obj16/ComercioModelFile.gif"
+            extensions="comercio"
+            class="comercio.presentation.ComercioEditor"
+            contributorClass="comercio.presentation.ComercioActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
