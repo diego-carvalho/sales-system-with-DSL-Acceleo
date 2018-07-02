@@ -9,9 +9,9 @@ public class Menu implements Action{
 	Action exitOption = new ExitOption();
 	private ArrayList<Action> actions = new ArrayList<>();
 	private String title = "MENU";
-	private String msgChoice = "Escolha umas das opções acima";
-	private String msgChoiceNotExist = "Opção escolhida incorreta, somente numeros validos.";
-	private String msgChoiceInvalide = "Opção escolhida incorreta, use apenas numeros.";
+	private String msgChoice = "Escolha umas das opcoes acima";
+	private String msgChoiceNotExist = "Opcao escolhida incorreta, somente numeros validos.";
+	private String msgChoiceInvalide = "Opcao escolhida incorreta, use apenas numeros.";
 	
 	public Menu(){
 		actions.add(exitOption);

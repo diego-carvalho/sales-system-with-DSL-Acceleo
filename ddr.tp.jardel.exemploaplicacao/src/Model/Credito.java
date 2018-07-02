@@ -7,12 +7,13 @@ package Model;
 
 import java.io.Serializable;
 
-/**
- *
- * @author jardel
- */
 public class Credito extends FormaPagamento implements Serializable {
-   public Credito() {
-       super.setForma("Crédito");
+   /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+public Credito() {
+       super.setForma("Credito");
    }
 }

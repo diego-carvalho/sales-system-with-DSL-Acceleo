@@ -1,8 +1,10 @@
 package view.locacaoActions;
 
+import java.util.Calendar;
 import java.util.Scanner;
 
 import Controller.LocacaoController;
+import Model.Locacao;
 import framework.Action;
 
 public class DevolverLocacao implements Action{
@@ -14,33 +16,34 @@ public class DevolverLocacao implements Action{
 	@Override
 	public String getTitle() {
 		// TODO Auto-generated method stub
-		return "Devolver uma locação";
+		return "Devolver uma locacao";
 	}
 	@Override
 	public Integer runAction() {
-                Integer resp = 1;
+        Integer resp = 1;
 		// TODO Auto-generated method stub
 		showDevolve();
 		if (pos != -1) {
                        
-                    boolean verificaFormat = true;
-                    while(verificaFormat) {
-                        verificaFormat = false;
-			System.out.println("Deseja continuar? Sim - 1, Não - 0");
-			resp = 1;
-			try {
-				resp = Integer.parseInt(scan.nextLine());
-			} catch (Exception e) {
-				System.out.println("Erro na escolha, escolhe entre 0 ou 1.");
-				verificaFormat = true;
-			}
+            boolean verificaFormat = true;
+            while(verificaFormat) {
+                verificaFormat = false;
+				System.out.println("Deseja continuar? Sim - 1, Não - 0");
+				resp = 1;
+				try {
+					resp = Integer.parseInt(scan.nextLine());
+				} catch (Exception e) {
+					System.out.println("Erro na escolha, escolhe entre 0 ou 1.");
+					verificaFormat = true;
+				}
                         
-                    }
-                    if(resp == 0) {
-                        return 0;
-                    }
-                    locacaoController.devolveLocacao(pos);
-                    pos = -1;
+            }
+            if(resp == 0) {
+                return 0;
+            }
+            locacaoController.devolveLocacao(pos);
+            locacaoController.getLocacoes().get(pos).setDataEntrega(Calendar.getInstance().getTime());
+            pos = -1;
 		}
 		return 0;
 	}
@@ -60,7 +63,9 @@ public class DevolverLocacao implements Action{
 		}
 		pos = locacaoController.findByNumero(codigo);
 		if (pos == -1) {
-			System.out.println("Locacao não encontrada, por favor tente novamente.");
+			System.out.println("Locacao nao encontrada, por favor tente novamente.");
+		}else {
+			System.out.println(locacaoController.getLocacoes().get(pos));
 		}
 	}
 

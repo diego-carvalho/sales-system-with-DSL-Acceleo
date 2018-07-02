@@ -9,7 +9,7 @@ import view.clienteActions.RemoverCliente;
 
 public class ClienteView implements Action {
 	
-	Menu clienteMenu = new Menu("Menu Cliente");
+	Menu clienteMenu;
 	Action imprimirCliente = new ImprimirCliente();
 	Action incluirCliente = new IncluirCliente();
 	Action alterarCliente = new AlterarCliente();
@@ -24,6 +24,9 @@ public class ClienteView implements Action {
 	@Override
 	public Integer runAction() {
 		// TODO Auto-generated method stub
+		
+		clienteMenu = new Menu("Menu Cliente");
+		
 		clienteMenu.addAction(imprimirCliente);
 		clienteMenu.addAction(incluirCliente);
 		clienteMenu.addAction(alterarCliente);

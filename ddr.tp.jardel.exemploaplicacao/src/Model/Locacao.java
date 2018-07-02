@@ -12,8 +12,8 @@ public class Locacao extends Entidade implements Totalizavel, Serializable {
 	private static final long serialVersionUID = 3989685991026425710L;
 	private Integer numero;
 	private Date data; //Data de efetivação
-        private Date dataEntrega; //Data de entrega
-        private boolean estado;
+    private Date dataEntrega; //Data de entrega
+    private boolean estado;
 	private Cliente cliente;
         private FormaPagamento formaPagamento;
 	private ArrayList<Item> itens = new ArrayList<>();
@@ -31,7 +31,7 @@ public class Locacao extends Entidade implements Totalizavel, Serializable {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Locação = [numero: "+ getNumero() +", data: "+ getData() + " ,dataEntrega: " + getDataEntrega() + ", cliente: "+ getCliente() +", itens: ("+ itensStr() + ")Estado: " + (getEstado() ? "Pendende" : "Entregue") + ", Pagamento: " + formaPagamento.getForma() + "]";
+		return "Locacao = [numero: "+ getNumero() +", data: "+ getData() + " ,dataEntrega: " + getDataEntrega() + ", cliente: "+ getCliente() +", itens: ("+ itensStr() + ")Estado: " + (getEstado() ? "Pendende" : "Entregue") + ", Pagamento: " + formaPagamento.getForma() + "]";
 	}
         
         public void setFormaPagamento(FormaPagamento formaPagamento) {

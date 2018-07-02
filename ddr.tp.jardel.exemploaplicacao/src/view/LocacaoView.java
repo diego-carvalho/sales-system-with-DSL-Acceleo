@@ -9,21 +9,23 @@ import view.locacaoActions.DevolverLocacao;
 
 public class LocacaoView implements Action{
 	
-	Menu locacaoMenu = new Menu("Menu Locação");
+	Menu locacaoMenu;
 	Action imprimirLocacao = new ImprimirLocacao();
 	Action incluirLocacao = new IncluirLocacao();
 	Action removerLocacao = new RemoverLocacao();
-        Action devolverLocacao = new DevolverLocacao();
+    Action devolverLocacao = new DevolverLocacao();
 
 	@Override
 	public String getTitle() {
 		// TODO Auto-generated method stub
-		return "Menu Locação";
+		return "Menu Locacao";
 	}
 
 	@Override
 	public Integer runAction() {
 		// TODO Auto-generated method stub
+		locacaoMenu = new Menu("Menu Locacao");
+		
 		locacaoMenu.addAction(imprimirLocacao);
 		locacaoMenu.addAction(incluirLocacao);
 		locacaoMenu.addAction(removerLocacao);

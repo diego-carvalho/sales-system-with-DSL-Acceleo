@@ -8,7 +8,7 @@ import view.vendaActions.RemoverVenda;
 
 public class VendaView implements Action{
 	
-	Menu vendaMenu = new Menu("Menu Cliente");
+	Menu vendaMenu;
 	Action imprimirVenda = new ImprimirVenda();
 	Action incluirVenda = new IncluirVenda();
 	Action removerVenda = new RemoverVenda();
@@ -22,6 +22,8 @@ public class VendaView implements Action{
 	@Override
 	public Integer runAction() {
 		// TODO Auto-generated method stub
+		vendaMenu = new Menu("Menu Cliente");
+		
 		vendaMenu.addAction(imprimirVenda);
 		vendaMenu.addAction(incluirVenda);
 		vendaMenu.addAction(removerVenda);

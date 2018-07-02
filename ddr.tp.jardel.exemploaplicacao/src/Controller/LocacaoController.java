@@ -46,11 +46,11 @@ public class LocacaoController {
 		System.out.println("Locacao removida com sucesso.");
 	}
         
-        public void devolveLocacao(Integer pos) {
-            Locacao locacao = getLocacoes().get(pos);
-            locacao.setEstado(false); //Estado de emprestado falso
-            System.out.println("Locacao devolvida com sucesso.");
-        }
+    public void devolveLocacao(Integer pos) {
+        Locacao locacao = getLocacoes().get(pos);
+        locacao.setEstado(false); //Estado de emprestado falso
+        System.out.println("Locacao devolvida com sucesso.");
+    }
 	
 	@SuppressWarnings("unchecked")
 	public void restaurar() {

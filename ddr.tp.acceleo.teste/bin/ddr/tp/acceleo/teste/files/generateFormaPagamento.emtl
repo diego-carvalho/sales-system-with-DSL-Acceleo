@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mtl="http://www.eclipse.org/acceleo/mtl/3.0" xmlns:ocl.ecore="http://www.eclipse.org/ocl/1.1.0/Ecore">
-  <mtl:Module name="generateFormaPagamento" nsURI="ddr::tp::acceleo::teste::files::generateFormaPagamento" startHeaderPosition="29" endHeaderPosition="297">
+  <mtl:Module name="generateFormaPagamento" nsURI="ddr::tp::acceleo::teste::files::generateFormaPagamento" startHeaderPosition="30" endHeaderPosition="306">
     <input>
       <takesTypesFrom href="http://comercio#/"/>
     </input>
     <ownedModuleElement xsi:type="mtl:Template" name="generateFormaPagamento" visibility="Public">
-      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xD;&#xA;"/>
       <body xsi:type="mtl:FileBlock" openMode="OverWrite">
-        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="package model;&#xA;&#xA;public class FormaPagamento"/>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="package model;&#xD;&#xA;&#xD;&#xA;public class FormaPagamento"/>
         <body xsi:type="ocl.ecore:OperationCallExp" referredOperation="/1/oclstdlib_String_Class/toUpperFirst">
           <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
           <source xsi:type="ocl.ecore:PropertyCallExp">
@@ -18,14 +18,14 @@
             <referredProperty xsi:type="ecore:EAttribute" href="http://comercio#//FormaPagamento/nome"/>
           </source>
         </body>
-        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" {&#xA;&#xA;&#x9;public void efetuarPagamento() {&#xA;&#x9;&#x9;// "/>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" {&#xD;&#xA;&#xD;&#xA;&#x9;public void efetuarPagamento() {&#xD;&#xA;&#x9;&#x9;// "/>
         <body xsi:type="mtl:ProtectedAreaBlock">
-          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;&#x9;&#x9;// TODO deve ser implementado&#xA;&#x9;&#x9;// "/>
+          <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xD;&#xA;&#x9;&#x9;// TODO deve ser implementado&#xD;&#xA;&#x9;&#x9;// "/>
           <marker xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="efetuarPagamento">
             <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
           </marker>
         </body>
-        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;&#x9;}&#xA;}&#xA;"/>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xD;&#xA;&#x9;}&#xD;&#xA;}&#xD;&#xA;"/>
         <fileUrl xsi:type="ocl.ecore:OperationCallExp" referredOperation="/1/oclstdlib_String_Class/+">
           <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
           <source xsi:type="ocl.ecore:OperationCallExp" referredOperation="/1/oclstdlib_String_Class/+">
@@ -154,33 +154,33 @@
   </ocl.ecore:Variable>
   <ecore:EAnnotation source="positions">
     <eAnnotations source="positions.0" references="/0/generateFormaPagamento">
-      <details key="start" value="82"/>
-      <details key="end" value="449"/>
+      <details key="start" value="86"/>
+      <details key="end" value="467"/>
       <details key="line" value="5"/>
     </eAnnotations>
     <eAnnotations source="positions.1" references="/0/generateFormaPagamento/%">
-      <details key="start" value="157"/>
-      <details key="end" value="158"/>
+      <details key="start" value="162"/>
+      <details key="end" value="164"/>
       <details key="line" value="6"/>
     </eAnnotations>
     <eAnnotations source="positions.2" references="/0/generateFormaPagamento/%.1">
-      <details key="start" value="158"/>
-      <details key="end" value="437"/>
+      <details key="start" value="164"/>
+      <details key="end" value="454"/>
       <details key="line" value="7"/>
     </eAnnotations>
     <eAnnotations source="positions.3" references="/0/generateFormaPagamento/%.1/%">
-      <details key="start" value="234"/>
-      <details key="end" value="277"/>
+      <details key="start" value="241"/>
+      <details key="end" value="286"/>
       <details key="line" value="8"/>
     </eAnnotations>
     <eAnnotations source="positions.4" references="/0/generateFormaPagamento/%.1/%.1">
-      <details key="start" value="278"/>
-      <details key="end" value="297"/>
+      <details key="start" value="287"/>
+      <details key="end" value="306"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.5" references="/0/generateFormaPagamento/%.1/%.1/%">
-      <details key="start" value="278"/>
-      <details key="end" value="282"/>
+      <details key="start" value="287"/>
+      <details key="end" value="291"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.6" references="/0/generateFormaPagamento/%.1/%.1/%/self">
@@ -189,53 +189,53 @@
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.7" references="/0/generateFormaPagamento/%.1/%.2">
-      <details key="start" value="299"/>
-      <details key="end" value="342"/>
+      <details key="start" value="308"/>
+      <details key="end" value="354"/>
       <details key="line" value="10"/>
     </eAnnotations>
     <eAnnotations source="positions.8" references="/0/generateFormaPagamento/%.1/%.3">
-      <details key="start" value="342"/>
-      <details key="end" value="424"/>
+      <details key="start" value="354"/>
+      <details key="end" value="438"/>
       <details key="line" value="13"/>
     </eAnnotations>
     <eAnnotations source="positions.9" references="/0/generateFormaPagamento/%.1/%.3/%">
-      <details key="start" value="374"/>
-      <details key="end" value="412"/>
+      <details key="start" value="386"/>
+      <details key="end" value="426"/>
       <details key="line" value="14"/>
     </eAnnotations>
     <eAnnotations source="positions.10" references="/0/generateFormaPagamento/%.1/%.3/%.1">
-      <details key="start" value="354"/>
-      <details key="end" value="372"/>
+      <details key="start" value="366"/>
+      <details key="end" value="384"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.11" references="/0/generateFormaPagamento/%.1/%.4">
-      <details key="start" value="424"/>
-      <details key="end" value="430"/>
+      <details key="start" value="438"/>
+      <details key="end" value="447"/>
       <details key="line" value="16"/>
     </eAnnotations>
     <eAnnotations source="positions.12" references="/0/generateFormaPagamento/%.1/%.5">
-      <details key="start" value="165"/>
-      <details key="end" value="215"/>
+      <details key="start" value="171"/>
+      <details key="end" value="221"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.13" references="/0/generateFormaPagamento/%.1/%.5/%">
-      <details key="start" value="165"/>
-      <details key="end" value="207"/>
+      <details key="start" value="171"/>
+      <details key="end" value="213"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.14" references="/0/generateFormaPagamento/%.1/%.5/%/%">
-      <details key="start" value="165"/>
-      <details key="end" value="187"/>
+      <details key="start" value="171"/>
+      <details key="end" value="193"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.15" references="/0/generateFormaPagamento/%.1/%.5/%/%.1">
-      <details key="start" value="188"/>
-      <details key="end" value="207"/>
+      <details key="start" value="194"/>
+      <details key="end" value="213"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.16" references="/0/generateFormaPagamento/%.1/%.5/%/%.1/%">
-      <details key="start" value="188"/>
-      <details key="end" value="192"/>
+      <details key="start" value="194"/>
+      <details key="end" value="198"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.17" references="/0/generateFormaPagamento/%.1/%.5/%/%.1/%/self">
@@ -244,18 +244,18 @@
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.18" references="/0/generateFormaPagamento/%.1/%.5/%.1">
-      <details key="start" value="208"/>
-      <details key="end" value="215"/>
+      <details key="start" value="214"/>
+      <details key="end" value="221"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.19" references="/0/generateFormaPagamento/%.1/%.6">
-      <details key="start" value="224"/>
-      <details key="end" value="231"/>
+      <details key="start" value="230"/>
+      <details key="end" value="237"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.20" references="/0/generateFormaPagamento/aFormaPagamento">
-      <details key="start" value="122"/>
-      <details key="end" value="154"/>
+      <details key="start" value="126"/>
+      <details key="end" value="158"/>
       <details key="line" value="5"/>
     </eAnnotations>
   </ecore:EAnnotation>

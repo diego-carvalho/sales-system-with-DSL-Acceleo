@@ -9,7 +9,7 @@ import view.produtoActions.RemoverProduto;
 
 public class ProdutoView implements Action{
 	
-	Menu produtoMenu = new Menu("Menu Produto");
+	Menu produtoMenu;
 	Action imprimirProduto = new ImprimirProduto();
 	Action incluirProduto = new IncluirProduto();
 	Action alterarProduto = new AlterarProduto();
@@ -24,6 +24,8 @@ public class ProdutoView implements Action{
 	@Override
 	public Integer runAction() {
 		// TODO Auto-generated method stub
+		produtoMenu = new Menu("Menu Produto");
+		
 		produtoMenu.addAction(imprimirProduto);
 		produtoMenu.addAction(incluirProduto);
 		produtoMenu.addAction(alterarProduto);

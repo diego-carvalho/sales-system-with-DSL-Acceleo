@@ -14,7 +14,7 @@ public class RemoverLocacao implements Action{
 	@Override
 	public String getTitle() {
 		// TODO Auto-generated method stub
-		return "Remover uma locação";
+		return "Remover uma locacao";
 	}
 	@Override
 	public Integer runAction() {

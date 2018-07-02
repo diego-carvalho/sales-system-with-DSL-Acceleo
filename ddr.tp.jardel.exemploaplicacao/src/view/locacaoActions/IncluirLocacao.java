@@ -27,7 +27,7 @@ public class IncluirLocacao implements Action {
 	@Override
 	public String getTitle() {
 		// TODO Auto-generated method stub
-		return "Realizar uma Locação";
+		return "Realizar uma locacao";
 	}
 
 	@Override

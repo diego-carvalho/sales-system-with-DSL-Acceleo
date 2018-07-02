@@ -7,12 +7,12 @@ package Model;
 
 import java.io.Serializable;
 
-/**
- *
- * @author jardel
- */
 public abstract class FormaPagamento implements Serializable {
-     private String nome;
+     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String nome;
     
     public void setForma(String nome) {
         this.nome = nome;

@@ -7,12 +7,13 @@ package Model;
 
 import java.io.Serializable;
 
-/**
- *
- * @author jardel
- */
 public class Debito extends FormaPagamento implements Serializable{
-    public Debito() {
-        super.setForma("Débito");
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public Debito() {
+        super.setForma("Debito");
     }
 }
