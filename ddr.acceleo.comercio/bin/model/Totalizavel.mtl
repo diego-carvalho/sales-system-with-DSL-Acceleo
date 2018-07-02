@@ -1,0 +1,19 @@
+[comment encoding = UTF-8 /]
+[module Totalizavel('http://comercio')]
+
+
+[template public generateTotalizavel(anOclAny : OclAny)]
+
+[file ('model/Totalizavel.java', false, 'UTF-8')]
+
+package model;
+
+public interface Totalizavel {
+
+	public Float total();
+	
+}
+
+
+[/file]
+[/template]

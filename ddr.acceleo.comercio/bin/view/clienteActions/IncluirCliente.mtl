@@ -1,0 +1,96 @@
+[comment encoding = UTF-8 /]
+[module IncluirCliente('http://comercio')]
+
+
+[template public generateIncluirCliente(aCliente : Cliente)]
+
+[file ('view/clienteActions/IncluirCliente.java', false, 'UTF-8')]
+
+package view.clienteActions;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+import controller.ClienteController;
+import model.Cliente;
+import framework.Action;
+
+public class IncluirCliente implements Action {
+	
+	Scanner scan = new Scanner(System.in);
+	Date data = new Date();
+	SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+	ClienteController clienteController = ClienteController.getInstance();
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Incluir um [aCliente.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		Cliente cliente = showAdiciona();
+		clienteController.adicionarCliente(cliente);
+		return 0;
+	}
+	
+	public Cliente showAdiciona() {
+		Cliente cliente = new Cliente();
+		System.out.println("Informe o nome:");
+		cliente.setNome(scan.nextLine());
+		System.out.println("Informe o endereco:");
+		cliente.setEndereco(scan.nextLine());
+		boolean verificaFormat = true;
+		while(verificaFormat) {
+			System.out.println("Informe o rg:");
+			String rg = scan.nextLine();
+			if (clienteController.findByRg(rg) != -1) {
+				System.out.println("Ja possuimos clientes com esse RG, tente novamente.");
+				verificaFormat = true;
+			}else {
+				cliente.setRg(rg);
+				verificaFormat = false;
+			}
+		}
+		verificaFormat = true;
+		while(verificaFormat) {
+			try {
+				System.out.println("Informe a data de nascimento no formato ##/##/####:");
+				data = formato.parse(scan.nextLine());
+				verificaFormat = false;
+			} catch (ParseException e) {
+				System.out.println("Erro ao inserir o formato da data, tente novamente.");
+				verificaFormat = true;
+			}
+		}
+		cliente.setData_de_nascimento(data);
+
+		[comment pede para preencher os atributos de caracteristicas /]
+		[for (at : Atributo | atributos)]
+			[if (at.tipo = 0)]
+				System.out.println("Informe o [at.nome /]:");
+				item.set[at.nome.toUpperFirst()/](Integer.parseInt(scan.nextLine()));
+			[elseif (at.tipo = 1)]
+				System.out.println("Informe o [at.nome /] ex: 10.50");
+				produto.set[at.nome.toUpperFirst()/](Float.parseFloat(scan.nextLine()));
+			[elseif (at.tipo = 2)]
+				System.out.println("Informe o [at.nome /]:");
+				cliente.set[at.nome.toUpperFirst()/](scan.nextLine());
+			[elseif (at.tipo = 3)]
+				System.out.println("Informe o [at.nome /] no formato ##/##/####:");
+				cliente.set[at.nome.toUpperFirst()/](formato.parse(scan.nextLine()));
+			[/if]
+		[/for]
+
+		return cliente;
+	}
+
+}
+
+
+[/file]
+[/template]

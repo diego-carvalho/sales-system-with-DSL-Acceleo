@@ -1,0 +1,26 @@
+[comment encoding = UTF-8 /]
+[module FormaPagamentoInstance('http://comercio')]
+
+
+[template public generateFormaPagamentoInstance(aFormaPagamento : FormaPagamento)]
+
+[file ('model/' + aFormaPagamento.nome.toUpperFirst() + '.java', false, 'UTF-8')]
+
+package model;
+
+import java.io.Serializable;
+
+public class [aFormaPagamento.nome.toUpperFirst()/] extends FormaPagamento implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public Debito() {
+        super.setForma(" [aFormaPagamento.nome/] ");
+    }
+}
+
+
+[/file]
+[/template]

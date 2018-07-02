@@ -1,0 +1,58 @@
+[comment encoding = UTF-8 /]
+[module SalvarDados('http://comercio')]
+
+
+[template public generateSalvarDados(anAplicativo : Aplicativo)]
+
+[file ('view/lojaActions/SalvarDados.java', false, 'UTF-8')]
+
+package view.lojaActions;
+
+import controller.Arquivo;
+import controller.ClienteController;
+import controller.ProdutoController;
+import controller.VendaController;
+import controller.LocacaoController;
+import framework.Action;
+
+public class SalvarDados implements Action {
+
+	ClienteController clienteController = ClienteController.getInstance();
+	ProdutoController produtoController = ProdutoController.getInstance();
+	VendaController vendaController = VendaController.getInstance();
+    LocacaoController locacaoController = LocacaoController.getInstance();
+	Arquivo arq = Arquivo.getInstace();
+	
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Salvar dados";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		salvaDados();
+		return 0;
+	}
+
+	public void salvaDados() {
+		if (!clienteController.getClientes().isEmpty()) {
+			arq.salvar(clienteController.getClientes(), "src/data/clientes.txt");
+		}
+		if (!produtoController.getProdutos().isEmpty()) {
+			arq.salvar(produtoController.getProdutos(), "src/data/produtos.txt");
+		}
+		if (!vendaController.getVendas().isEmpty()) {
+			arq.salvar(vendaController.getVendas(), "src/data/vendas.txt");
+		}
+        if(!locacaoController.getLocacoes().isEmpty()) {
+            arq.salvar(locacaoController.getLocacoes(), "src/data/locacoes.txt");
+        }
+	}
+	
+}
+
+
+[/file]
+[/template]

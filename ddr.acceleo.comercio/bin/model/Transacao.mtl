@@ -1,0 +1,16 @@
+[comment encoding = UTF-8 /]
+[module Transacao('http://comercio')]
+
+
+[template public generateTransacao(aTransacao : Transacao)]
+
+[file ('model/Transacao.java', false, 'UTF-8')]
+
+package model;
+
+public class Transacao extends Entidade {
+
+}
+
+[/file]
+[/template]

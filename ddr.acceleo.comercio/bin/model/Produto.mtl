@@ -1,0 +1,75 @@
+[comment encoding = UTF-8 /]
+[module Produto('http://comercio')]
+
+[import model::Transacao /]
+
+[template public generateProduto(aProduto : Produto)]
+
+[file ('model/Produto.java', false, 'UTF-8')]
+
+package model;
+
+import java.io.Serializable;
+
+public class Produto extends Entidade implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -130819686340199241L;
+	private Integer codigo;
+	private String nome;
+
+	[if (aProduto.oclAsType(Transacao).valorado)]
+		private Float valor;
+
+		public Float getValor() {
+			return valor;
+		}
+		public void setValor(Float valor) {
+			this.valor = valor;
+		}
+	[/if]
+
+	[comment atributos das Caracteristicas /]
+	[for (at : Atributo | atributos)]
+		private [at.tipo/] [at.nome/];
+	[/for]
+
+	public Integer getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	[comment Getters e Setters dos atributos das Caracteristicas /]
+	[for (at : Atributo | atributos) separator ('\n')]
+	public [at.tipo/] get[at.nome.toUpperFirst()/]() {
+		return [at.nome/];
+	}
+	[/for]
+
+	[for (at : Atributo | atributos) separator ('\n')]
+	public void set[at.nome.toUpperFirst()/]([at.tipo/] [at.nome/]) {
+		this.[at.nome/] = [at.nome/];
+	}
+	[/for]
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Produto = ['['/]codigo: "+ getCodigo() +", nome: "+ getNome() [if (aProduto.oclAsType(Transacao).valorado)] +", valor: "+ getValor() [/if] [for (at : Atributo | atributos)] +", [at.nome/]=" + [at.nome/] [/for] +"[']'/]";
+	}
+
+}
+
+
+[/file]
+[/template]

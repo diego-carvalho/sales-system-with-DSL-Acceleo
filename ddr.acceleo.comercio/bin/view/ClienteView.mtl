@@ -1,0 +1,50 @@
+[comment encoding = UTF-8 /]
+[module ClienteView('http://comercio')]
+
+
+[template public generateClienteView(aCliente : Cliente)]
+
+[file ('view/ClienteView.java', false, 'UTF-8')]
+
+package view;
+
+import framework.Action;
+import framework.Menu;
+import view.clienteActions.AlterarCliente;
+import view.clienteActions.ImprimirCliente;
+import view.clienteActions.IncluirCliente;
+import view.clienteActions.RemoverCliente;
+
+public class ClienteView implements Action {
+	
+	Menu clienteMenu;
+	Action imprimirCliente = new ImprimirCliente();
+	Action incluirCliente = new IncluirCliente();
+	Action alterarCliente = new AlterarCliente();
+	Action removerCliente = new RemoverCliente();
+	
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Menu [aCliente.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		
+		clienteMenu = new Menu("Menu [aCliente.nome /]");
+		
+		clienteMenu.addAction(imprimirCliente);
+		clienteMenu.addAction(incluirCliente);
+		clienteMenu.addAction(alterarCliente);
+		clienteMenu.addAction(removerCliente);
+		
+		clienteMenu.runAction();
+		return 0;
+	}
+}
+
+
+[/file]
+[/template]

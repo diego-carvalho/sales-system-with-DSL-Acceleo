@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:mtl="http://www.eclipse.org/acceleo/mtl/3.0" xmlns:ocl.ecore="http://www.eclipse.org/ocl/1.1.0/Ecore">
+  <mtl:Module name="ClienteController" nsURI="controller::ClienteController" startHeaderPosition="29" endHeaderPosition="755">
+    <input>
+      <takesTypesFrom href="http://comercio#/"/>
+    </input>
+    <ownedModuleElement xsi:type="mtl:Template" name="generateClienteController" visibility="Public">
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;"/>
+      <body xsi:type="mtl:FileBlock" openMode="OverWrite">
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&#xA;package controller;&#xA;&#xA;import java.util.ArrayList;&#xA;&#xA;import model.Cliente;&#xA;&#xA;public class ClienteController {&#xA;&#x9;&#xA;&#x9;private ArrayList&lt;Cliente> clientes = new ArrayList&lt;>();&#xA;&#x9;private static ClienteController instance = null;&#xA;&#x9;&#xA;&#x9;private ClienteController() {&#xA;&#x9;&#x9;restaurar();&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;public static ClienteController getInstance() {&#xA;&#x9;&#x9;if (instance == null) {&#xA;&#x9;&#x9;&#x9;instance = new ClienteController();&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;return instance;&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;public void imprimirCliente() {&#xA;&#x9;&#x9;System.out.println(&quot;\n&quot;);&#xA;&#x9;&#x9;if (getClientes().isEmpty()) {&#xA;&#x9;&#x9;&#x9;System.out.println(&quot;Nenhum "/>
+        <body xsi:type="ocl.ecore:PropertyCallExp">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <source xsi:type="ocl.ecore:VariableExp" name="aCliente" referredVariable="/0/generateClienteController/aCliente">
+            <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+          </source>
+          <referredProperty xsi:type="ecore:EAttribute" href="http://comercio#//Caracteristica/nome"/>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" adicionado.&quot;);&#xA;&#x9;&#x9;}else {&#xA;&#x9;&#x9;&#x9;for (Cliente cliente : getClientes()) {&#xA;&#x9;&#x9;&#x9;&#x9;System.out.println(cliente);&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;System.out.println(&quot;\n&quot;);&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;public void adicionarCliente(Cliente cliente) {&#xA;&#x9;&#x9;getClientes().add(cliente);&#xA;&#x9;&#x9;System.out.println(&quot;"/>
+        <body xsi:type="ocl.ecore:PropertyCallExp">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <source xsi:type="ocl.ecore:VariableExp" name="aCliente" referredVariable="/0/generateClienteController/aCliente">
+            <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+          </source>
+          <referredProperty xsi:type="ecore:EAttribute" href="http://comercio#//Caracteristica/nome"/>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" adicionado com sucesso.&quot;);&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;public void editarCliente(Integer pos, Cliente cliente) {&#xA;&#x9;&#x9;getClientes().set(pos, cliente);&#xA;&#x9;&#x9;System.out.println(&quot;"/>
+        <body xsi:type="ocl.ecore:PropertyCallExp">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <source xsi:type="ocl.ecore:VariableExp" name="aCliente" referredVariable="/0/generateClienteController/aCliente">
+            <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+          </source>
+          <referredProperty xsi:type="ecore:EAttribute" href="http://comercio#//Caracteristica/nome"/>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" editado com sucesso.&quot;);&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;public void removeCliente(Integer pos) {&#xA;&#x9;&#x9;Cliente cliente = getClientes().get(pos);&#xA;&#x9;&#x9;getClientes().remove(cliente);&#xA;&#x9;&#x9;System.out.println(&quot;"/>
+        <body xsi:type="ocl.ecore:PropertyCallExp">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+          <source xsi:type="ocl.ecore:VariableExp" name="aCliente" referredVariable="/0/generateClienteController/aCliente">
+            <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+          </source>
+          <referredProperty xsi:type="ecore:EAttribute" href="http://comercio#//Caracteristica/nome"/>
+        </body>
+        <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol=" removido com sucesso.&quot;);&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;@SuppressWarnings(&quot;unchecked&quot;)&#xA;&#x9;public void restaurar() {&#xA;&#x9;&#x9;Arquivo arq = Arquivo.getInstace();&#xA;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;setClientes((ArrayList&lt;Cliente>) arq.restaurar(&quot;src/data/clientes.txt&quot;));&#xA;&#x9;&#x9;} catch (Exception e) {&#xA;&#x9;&#x9;&#x9;System.out.println(&quot;arquivo clientes n�o encontrado.&quot;);&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;public Integer findByRg(String rg) {&#xA;&#x9;&#x9;Integer cont = 0;&#xA;&#x9;&#x9;for (Cliente cliente : getClientes()) {&#xA;&#x9;&#x9;&#x9;if (cliente.getRg().equals(rg)) {&#xA;&#x9;&#x9;&#x9;&#x9;return cont;&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;cont++;&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;return -1;&#xA;&#x9;}&#xA;&#x9;&#xA;&#x9;public Cliente getCliente(Integer pos) {&#xA;&#x9;&#x9;if (pos != -1) {&#xA;&#x9;&#x9;&#x9;return getClientes().get(pos);&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;return null;&#xA;&#x9;}&#xA;&#xA;&#x9;public ArrayList&lt;Cliente> getClientes() {&#xA;&#x9;&#x9;return clientes;&#xA;&#x9;}&#xA;&#xA;&#x9;public void setClientes(ArrayList&lt;Cliente> clientes) {&#xA;&#x9;&#x9;this.clientes = clientes;&#xA;&#x9;}&#xA;&#x9;&#xA;}&#xA;&#xA;&#xA;"/>
+        <fileUrl xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="controller/ClienteController.java">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </fileUrl>
+        <charset xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="UTF-8">
+          <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        </charset>
+      </body>
+      <parameter name="aCliente">
+        <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+      </parameter>
+    </ownedModuleElement>
+  </mtl:Module>
+  <ecore:EPackage name="additions">
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_String_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Integer_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Integer"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Real_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Real"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ecore_EObject_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      </eAnnotations>
+      <eOperations name="generateClienteController">
+        <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+          <contents xsi:type="ocl.ecore:Constraint"/>
+        </eAnnotations>
+        <eAnnotations source="MTL" references="/0/generateClienteController"/>
+        <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+        <eParameters name="aCliente">
+          <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+        </eParameters>
+      </eOperations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_OclAny_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OclAny"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Collection(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Collection(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_Sequence(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/Sequence(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="oclstdlib_OrderedSet(T)_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/OrderedSet(T)"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="comercio_Cliente_Class">
+      <eAnnotations source="http://www.eclipse.org/ocl/1.1.0/OCL">
+        <references href="http://comercio#//Cliente"/>
+      </eAnnotations>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ocl.ecore:PrimitiveType" href="http://www.eclipse.org/ocl/1.1.0/oclstdlib.ecore#/0/String"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://comercio#//Cliente"/>
+  </ocl.ecore:Variable>
+  <ocl.ecore:Variable name="self">
+    <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+  </ocl.ecore:Variable>
+  <ecore:EAnnotation source="positions">
+    <eAnnotations source="positions.0" references="/0/generateClienteController">
+      <details key="start" value="77"/>
+      <details key="end" value="2168"/>
+      <details key="line" value="5"/>
+    </eAnnotations>
+    <eAnnotations source="positions.1" references="/0/generateClienteController/%">
+      <details key="start" value="141"/>
+      <details key="end" value="142"/>
+      <details key="line" value="6"/>
+    </eAnnotations>
+    <eAnnotations source="positions.2" references="/0/generateClienteController/%.1">
+      <details key="start" value="142"/>
+      <details key="end" value="2156"/>
+      <details key="line" value="7"/>
+    </eAnnotations>
+    <eAnnotations source="positions.3" references="/0/generateClienteController/%.1/%">
+      <details key="start" value="203"/>
+      <details key="end" value="740"/>
+      <details key="line" value="8"/>
+    </eAnnotations>
+    <eAnnotations source="positions.4" references="/0/generateClienteController/%.1/%.1">
+      <details key="start" value="741"/>
+      <details key="end" value="754"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.5" references="/0/generateClienteController/%.1/%.1/aCliente">
+      <details key="start" value="741"/>
+      <details key="end" value="749"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.6" references="/0/generateClienteController/%.1/%.2">
+      <details key="start" value="757"/>
+      <details key="end" value="1002"/>
+      <details key="line" value="34"/>
+    </eAnnotations>
+    <eAnnotations source="positions.7" references="/0/generateClienteController/%.1/%.3">
+      <details key="start" value="1003"/>
+      <details key="end" value="1016"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.8" references="/0/generateClienteController/%.1/%.3/aCliente">
+      <details key="start" value="1003"/>
+      <details key="end" value="1011"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.9" references="/0/generateClienteController/%.1/%.4">
+      <details key="start" value="1019"/>
+      <details key="end" value="1168"/>
+      <details key="line" value="45"/>
+    </eAnnotations>
+    <eAnnotations source="positions.10" references="/0/generateClienteController/%.1/%.5">
+      <details key="start" value="1169"/>
+      <details key="end" value="1182"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.11" references="/0/generateClienteController/%.1/%.5/aCliente">
+      <details key="start" value="1169"/>
+      <details key="end" value="1177"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.12" references="/0/generateClienteController/%.1/%.6">
+      <details key="start" value="1185"/>
+      <details key="end" value="1356"/>
+      <details key="line" value="50"/>
+    </eAnnotations>
+    <eAnnotations source="positions.13" references="/0/generateClienteController/%.1/%.7">
+      <details key="start" value="1357"/>
+      <details key="end" value="1370"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.14" references="/0/generateClienteController/%.1/%.7/aCliente">
+      <details key="start" value="1357"/>
+      <details key="end" value="1365"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.15" references="/0/generateClienteController/%.1/%.8">
+      <details key="start" value="1373"/>
+      <details key="end" value="2149"/>
+      <details key="line" value="56"/>
+    </eAnnotations>
+    <eAnnotations source="positions.16" references="/0/generateClienteController/%.1/%.9">
+      <details key="start" value="149"/>
+      <details key="end" value="184"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.17" references="/0/generateClienteController/%.1/%.10">
+      <details key="start" value="193"/>
+      <details key="end" value="200"/>
+      <details key="line" value="0"/>
+    </eAnnotations>
+    <eAnnotations source="positions.18" references="/0/generateClienteController/aCliente">
+      <details key="start" value="120"/>
+      <details key="end" value="138"/>
+      <details key="line" value="5"/>
+    </eAnnotations>
+  </ecore:EAnnotation>
+</xmi:XMI>

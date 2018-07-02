@@ -1,0 +1,10 @@
+[comment encoding = UTF-8 /]
+[module ClientesData('http://comercio')]
+
+
+[template public generateClientesData(anOclAny : OclAny)]
+
+[file ('data/clientes.txt', false, 'UTF-8')]
+
+[/file]
+[/template]

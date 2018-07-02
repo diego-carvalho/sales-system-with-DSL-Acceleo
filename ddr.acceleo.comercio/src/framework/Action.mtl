@@ -1,0 +1,22 @@
+[comment encoding = UTF-8 /]
+[module Action('http://comercio')]
+
+
+[template public generateAction(anOclAny : OclAny)]
+
+[file ('framework/Action.java', false, 'UTF-8')]
+
+package framework;
+
+public interface Action {
+	
+
+	public String getTitle();
+	
+	public Integer runAction();
+	
+
+}
+
+[/file]
+[/template]

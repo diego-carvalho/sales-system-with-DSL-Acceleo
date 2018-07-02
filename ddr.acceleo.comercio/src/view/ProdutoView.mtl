@@ -1,0 +1,49 @@
+[comment encoding = UTF-8 /]
+[module ProdutoView('http://eclipse.org/emf/emfstore/server/model', 'http://comercio')]
+
+
+[template public generateProdutoView(aProduto : Produto)]
+
+[file ('view/ProdutoView.java', false, 'UTF-8')]
+
+package view;
+
+import framework.Action;
+import framework.Menu;
+import view.produtoActions.AlterarProduto;
+import view.produtoActions.ImprimirProduto;
+import view.produtoActions.IncluirProduto;
+import view.produtoActions.RemoverProduto;
+
+public class ProdutoView implements Action{
+	
+	Menu produtoMenu;
+	Action imprimirProduto = new ImprimirProduto();
+	Action incluirProduto = new IncluirProduto();
+	Action alterarProduto = new AlterarProduto();
+	Action removerProduto = new RemoverProduto();
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Menu [aProduto.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		produtoMenu = new Menu("Menu [aProduto.nome /]");
+		
+		produtoMenu.addAction(imprimirProduto);
+		produtoMenu.addAction(incluirProduto);
+		produtoMenu.addAction(alterarProduto);
+		produtoMenu.addAction(removerProduto);
+		
+		produtoMenu.runAction();
+		return 0;
+	}
+}
+
+
+[/file]
+[/template]

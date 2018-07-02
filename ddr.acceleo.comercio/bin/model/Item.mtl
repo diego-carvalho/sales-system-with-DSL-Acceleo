@@ -1,0 +1,87 @@
+[comment encoding = UTF-8 /]
+[module Item('http://comercio')]
+
+
+[template public generateItem(anItem : Item)]
+
+[file ('model/Item.java', false, 'UTF-8')]
+
+package model;
+
+import java.io.Serializable;
+
+public class Item extends Entidade implements Totalizavel, Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2090719161192715458L;
+	private Produto produto;
+	private Float valor;
+	private Integer quantidade;
+
+	[if (anItem.oclAsType(Transacao).valorado)]
+		private Float valor;
+
+		public Float getValor() {
+			return valor;
+		}
+		public void setValor(Float valor) {
+			this.valor = valor;
+		}
+	[/if]
+
+	[comment atributos das Caracteristicas /]
+	[for (at : Atributo | atributos)]
+		private [at.tipo/] [at.nome/];
+	[/for]
+	
+	
+	@Override
+	public Float total() {
+		// TODO Auto-generated method stub
+		[if (anItem.oclAsType(Transacao).valorado)]
+			return (float) produto.getValor() * this.quantidade;
+		[else]
+			return 0.0;
+		[/if]
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "ItemVenda = ['['/]valor: "+ getValor() +", quantidade: "+ getQuantidade() [for (at : Atributo | atributos)] +", [at.nome/]=" + [at.nome/] [/for] +", produto: "+ getProduto() +"[']'/]";
+	}
+	
+	
+	public Produto getProduto() {
+		return produto;
+	}
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+	public Integer getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(Integer quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	[comment Getters e Setters dos atributos das Caracteristicas /]
+	[for (at : Atributo | atributos) separator ('\n')]
+	public [at.tipo/] get[at.nome.toUpperFirst()/]() {
+		return [at.nome/];
+	}
+	[/for]
+
+	[for (at : Atributo | atributos) separator ('\n')]
+	public void set[at.nome.toUpperFirst()/]([at.tipo/] [at.nome/]) {
+		this.[at.nome/] = [at.nome/];
+	}
+	[/for]
+
+}
+
+
+[/file]
+[/template]

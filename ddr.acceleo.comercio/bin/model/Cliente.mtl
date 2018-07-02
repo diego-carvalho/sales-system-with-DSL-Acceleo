@@ -1,0 +1,65 @@
+[comment encoding = UTF-8 /]
+[module Cliente('http://comercio')]
+
+
+[template public generateCliente(aCliente : Cliente)]
+
+[file ('model/Cliente.java', false, 'UTF-8')]
+
+package model;
+
+import java.io.Serializable;
+import java.util.Date;
+
+public class Cliente extends Pessoa implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4061306069965064384L;
+	private String rg;
+	private Date data_de_nascimento;
+
+	[comment atributos das Caracteristicas /]
+	[for (at : Atributo | atributos)]
+		private [at.tipo/] [at.nome/];
+	[/for]
+	
+	@Override
+	[comment Add atributos das Caracteristicas no toString /]
+	public String toString() {
+		return "Cliente ['['/]rg=" + rg + ", data_de_nascimento=" + data_de_nascimento [for (at : Atributo | atributos)] +", [at.nome/]=" + [at.nome/] [/for] + ", " + super.toString() +"[']'/]";
+	}
+	public String getRg() {
+		return rg;
+	}
+	public void setRg(String rg) {
+		this.rg = rg;
+	}
+	public Date getData_de_nascimento() {
+		return data_de_nascimento;
+	}
+	public void setData_de_nascimento(Date data_de_nascimento) {
+		this.data_de_nascimento = data_de_nascimento;
+	}
+
+	[comment Getters e Setters dos atributos das Caracteristicas /]
+	[for (at : Atributo | atributos) separator ('\n')]
+	public [at.tipo/] get[at.nome.toUpperFirst()/]() {
+		return [at.nome/];
+	}
+	[/for]
+
+	[for (at : Atributo | atributos) separator ('\n')]
+	public void set[at.nome.toUpperFirst()/]([at.tipo/] [at.nome/]) {
+		this.[at.nome/] = [at.nome/];
+	}
+	[/for]
+	
+	
+
+}
+
+
+[/file]
+[/template]

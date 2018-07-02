@@ -1,0 +1,35 @@
+[comment encoding = UTF-8 /]
+[module ImprimirVenda('http://comercio')]
+
+
+[template public generateImprimirVenda(aVenda : Venda)]
+
+[file ('view/vendaActions/ImprimirVenda.java', false, 'UTF-8')]
+
+package view.vendaActions;
+
+import controller.VendaController;
+import framework.Action;
+
+public class ImprimirVenda implements Action {
+	
+	VendaController vendaController = VendaController.getInstance();
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Imprimir [aVenda.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		vendaController.imprimirVenda();
+		return 0;
+	}
+
+}
+
+
+[/file]
+[/template]

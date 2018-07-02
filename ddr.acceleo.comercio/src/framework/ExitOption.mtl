@@ -1,0 +1,28 @@
+[comment encoding = UTF-8 /]
+[module ExitOption('http://comercio')]
+
+
+[template public generateExitOption(anOclAny : OclAny)]
+
+[file ('framework/ExitOption.java', false, 'UTF-8')]
+
+package framework;
+
+public class ExitOption implements Action{
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Sair";
+	}
+
+	@Override
+	public Integer runAction() {
+		return -1;
+	}
+
+}
+
+
+[/file]
+[/template]

@@ -1,0 +1,97 @@
+[comment encoding = UTF-8 /]
+[module AlterarProduto('http://comercio')]
+
+
+[template public generateAlterarProduto(aProduto : Produto)]
+
+[file ('view/produtoActions/AlterarProduto.java', false, 'UTF-8')]
+
+package view.produtoActions;
+
+import java.util.Scanner;
+
+import controller.ProdutoController;
+import model.Produto;
+import framework.Action;
+
+public class AlterarProduto implements Action{
+	
+	ProdutoController produtoController = ProdutoController.getInstance();
+	Scanner scan = new Scanner(System.in);
+	Integer pos = -1;
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Alterar um [aProduto.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		Produto produto = showEdita();
+		if (produto != null && pos != -1) {
+			produtoController.editarProduto(pos, produto);
+			pos = -1;
+		}
+		return 0;
+	}
+	
+	public Produto showEdita() {
+		Produto produto = new Produto();
+		boolean verificaFormat = true;
+		Integer codigo = null;
+		while(verificaFormat) {
+			try {
+				System.out.println("Digite o codigo do [aProduto.nome /] que deseja editar:");
+				codigo = (Integer.parseInt(scan.nextLine()));
+				verificaFormat = false;
+			} catch (Exception e) {
+				System.out.println("Codigo do [aProduto.nome /] são apenas numeros, tente novamente.");
+				verificaFormat = true;
+			}
+		}
+		pos = produtoController.findByCodigo(codigo);
+		if (pos == -1) {
+			System.out.println("[aProduto.nome /] não encontrado, por favor tente novamente.");
+			return null;
+		}
+		System.out.println("Informe o nome:");
+		produto.setNome(scan.nextLine());
+		verificaFormat = true;
+		while(verificaFormat) {
+			try {
+				System.out.println("Informe o valor: 10.50");
+				produto.setValor(Float.parseFloat(scan.nextLine()));
+				verificaFormat = false;
+			} catch (Exception e) {
+				System.out.println("Erro ao inserir o formato do valor, tente novamente.");
+				verificaFormat = true;
+			}
+		}
+
+		[comment pede para preencher os atributos de caracteristicas /]
+		[for (at : Atributo | atributos)]
+			[if (at.tipo = 0)]
+				System.out.println("Informe o [at.nome /]:");
+				item.set[at.nome.toUpperFirst()/](Integer.parseInt(scan.nextLine()));
+			[elseif (at.tipo = 1)]
+				System.out.println("Informe o [at.nome /] ex: 10.50");
+				produto.set[at.nome.toUpperFirst()/](Float.parseFloat(scan.nextLine()));
+			[elseif (at.tipo = 2)]
+				System.out.println("Informe o [at.nome /]:");
+				cliente.set[at.nome.toUpperFirst()/](scan.nextLine());
+			[elseif (at.tipo = 3)]
+				System.out.println("Informe o [at.nome /] no formato ##/##/####:");
+				cliente.set[at.nome.toUpperFirst()/](formato.parse(scan.nextLine()));
+			[/if]
+		[/for]
+
+		return produto;
+	}
+
+}
+
+
+[/file]
+[/template]

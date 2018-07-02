@@ -1,0 +1,10 @@
+[comment encoding = UTF-8 /]
+[module LocacoesData('http://comercio')]
+
+
+[template public generateLocacoesData(anOclAny : OclAny)]
+
+[file ('data/locacoes.txt', false, 'UTF-8')]
+
+[/file]
+[/template]

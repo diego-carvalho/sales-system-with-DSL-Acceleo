@@ -1,0 +1,10 @@
+[comment encoding = UTF-8 /]
+[module ProdutosData('http://comercio')]
+
+
+[template public generateProdutosData(anOclAny : OclAny)]
+
+[file ('data/produtos.txt', false, 'UTF-8')]
+
+[/file]
+[/template]

@@ -1,0 +1,35 @@
+[comment encoding = UTF-8 /]
+[module ImprimirLocacao('http://comercio')]
+
+
+[template public generateImprimirLocacao(anAluguel : Aluguel)]
+
+[file ('view/locacaoActions/ImprimirLocacao.java', false, 'UTF-8')]
+
+package view.locacaoActions;
+
+import controller.LocacaoController;
+import framework.Action;
+
+public class ImprimirLocacao implements Action {
+	
+	LocacaoController locacaoController = LocacaoController.getInstance();
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Imprimir [anAluguel.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		locacaoController.imprimirLocacao();
+		return 0;
+	}
+
+}
+
+
+[/file]
+[/template]

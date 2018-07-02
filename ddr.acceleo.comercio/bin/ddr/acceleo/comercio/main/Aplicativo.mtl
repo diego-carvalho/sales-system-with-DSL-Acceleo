@@ -1,0 +1,48 @@
+[comment encoding = UTF-8 /]
+[module Aplicativo('http://comercio')]
+
+
+[template public generateAplicativo(anAplicativo : Aplicativo)]
+[comment @main/]
+[file ('view/' + anAplicativo.nome.toUpperFirst() + '.java', false, 'UTF-8')]
+
+package view;
+
+import framework.Action;
+import framework.Menu;
+import view.lojaActions.SalvarDados;
+
+public class [anAplicativo.nome.toUpperFirst() /] {
+	
+	Menu lojaMenu;
+	Action clienteAction = new ClienteView();
+	Action produtoAction = new ProdutoView();
+	Action vendaAction = new VendaView();
+    Action locacaoAction = new LocacaoView();
+	Action salvaAction = new SalvarDados();
+	
+	public void show() {
+		lojaMenu = new Menu("Menu Principal");
+		
+		lojaMenu.addAction(clienteAction);
+		lojaMenu.addAction(produtoAction);
+		lojaMenu.addAction(vendaAction);
+        lojaMenu.addAction(locacaoAction);
+		lojaMenu.addAction(salvaAction);
+		lojaMenu.runAction();
+		
+	}
+
+	public static void main(String['['/][']'/] args) {
+		// TODO Auto-generated method stub
+		
+		show();
+		//System.out.println("Fim");
+
+	}
+
+}
+
+
+[/file]
+[/template]

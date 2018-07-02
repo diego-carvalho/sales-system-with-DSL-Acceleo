@@ -1,0 +1,35 @@
+[comment encoding = UTF-8 /]
+[module ImprimirProduto('http://comercio')]
+
+
+[template public generateImprimirProduto(aProduto : Produto)]
+
+[file ('view/produtoActions/ImprimirProduto.java', false, 'UTF-8')]
+
+package view.produtoActions;
+
+import controller.ProdutoController;
+import framework.Action;
+
+public class ImprimirProduto implements Action{
+	
+	ProdutoController produtoController = ProdutoController.getInstance();
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Imprimir [aProduto.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		produtoController.imprimirProduto();
+		return 0;
+	}
+
+}
+
+
+[/file]
+[/template]

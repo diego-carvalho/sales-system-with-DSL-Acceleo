@@ -1,0 +1,35 @@
+[comment encoding = UTF-8 /]
+[module ImprimirCliente('http://comercio')]
+
+
+[template public generateImprimirCliente(aCliente : Cliente)]
+
+[file ('view/clienteActions/ImprimirCliente.java', false, 'UTF-8')]
+
+package view.clienteActions;
+
+import controller.ClienteController;
+import framework.Action;
+
+public class ImprimirCliente implements Action{
+	
+	ClienteController clienteController = ClienteController.getInstance();
+
+	@Override
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return "Imprimir [aCliente.nome /]";
+	}
+
+	@Override
+	public Integer runAction() {
+		// TODO Auto-generated method stub
+		clienteController.imprimirCliente();
+		return 0;
+	}
+
+}
+
+
+[/file]
+[/template]
